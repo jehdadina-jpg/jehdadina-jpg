@@ -1,5 +1,5 @@
 # 💫 About Me:
-## Hey, I'm Jeh 👋<br><br>🎓 Computer Engineering student  <br>💻 2⭐ CodeChef  <br>🤖 Interested in AI automation & intelligent systems  <br>⚙️ Building scalable full-stack applications  <br><br>I focus on clean architecture, performance, and shipping production-ready work — not tutorial projects.<br><br>Always building. Always improving. 🚀
+## Hey, I'm Jeh 👋<br><br>🎓 Computer Engineering student  <br>💻 2⭐ CodeChef  <br>🤖 Interested in AI automation & intelligent systems  <br>⚙️ Building scalable full-stack applications  <br><br>I focus on clean architecture, performance, and shipping production-ready work<br><br>Always building. Always improving. 🚀
 
 
 ## 🌐 Socials:
