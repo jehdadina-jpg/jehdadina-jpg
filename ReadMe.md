@@ -51,12 +51,6 @@
 
 <br>
 
-## 📊 GitHub Stats
-
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jehdadina-jpg&theme=dark&hide_border=true&background=0D1117&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37" />
-</p>
 
 <br>
 
