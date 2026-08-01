@@ -56,10 +56,6 @@ Founders Office Intern @ Rayze Technologies · Founder & FinTech Head, Finance &
 
 ## 📊 GitHub Stats
 
-<p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=jehdadina-jpg&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=D4AF37&icon_color=D4AF37&text_color=C9D1D9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jehdadina-jpg&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=D4AF37&text_color=C9D1D9" />
-</p>
 
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=jehdadina-jpg&theme=dark&hide_border=true&background=0D1117&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37" />
