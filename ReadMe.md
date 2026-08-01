@@ -112,6 +112,9 @@
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 
 <br>
+# 📊 Most Used Languages
+
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=jehdadina-jpg&layout=compact&theme=tokyonight&hide_border=true)
 
 
 <br>
