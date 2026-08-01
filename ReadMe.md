@@ -4,16 +4,13 @@
 
 **Computer Engineering student · Building AI-driven & full-stack systems**
 
-Founders Office Intern @ Rayze Technologies · Founder & FinTech Head, Finance & Technology Club
 
 </div>
 
 <br>
 
 - 🎯 Focus: AI automation, intelligent systems, full-stack apps
-- 🚧 Currently: shipping production-ready fintech + ML projects
-- 🏅 CodeChef: 2★
-- 🧭 Philosophy: clean architecture, performance, ship it
+- 🚧 Currently: making production-ready fintech + ML projects
 
 <br>
 
