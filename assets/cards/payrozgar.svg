@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="PayRozgar — JavaScript project">
+  <title>PayRozgar</title>
+  <defs>
+    <linearGradient id="bg-payrozgar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="top-payrozgar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F1E05A"/>
+      <stop offset="100%" stop-color="#F1E05A" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-payrozgar { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-payrozgar { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#F1E05A; letter-spacing:0.6px; }
+      .d-payrozgar { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#8B949E; }
+      .c-payrozgar { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#F1E05A; }
+      .s-payrozgar { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#F0A868; }
+      .l-payrozgar { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#7EE7C7; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-payrozgar)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#30363D" stroke-width="2"/>
+  <path d="M14 1h396a13 13 0 0 1 13 13v2H1v-2a13 13 0 0 1 13-13z" fill="url(#top-payrozgar)"/>
+
+  <text x="26" y="46" class="t-payrozgar">PayRozgar</text>
+  <circle cx="31" cy="66" r="5" fill="#F1E05A"/>
+  <text x="43" y="70" class="g-payrozgar">JavaScript</text>
+
+
+    <text x="26" y="112" class="d-payrozgar">One-tap salary and attendance tracker for small-scale</text>
+    <text x="26" y="130" class="d-payrozgar">Indian retail shops — automated wage-advance ledgers and</text>
+    <text x="26" y="148" class="d-payrozgar">instant salary slip generation.</text>
+
+    <rect x="26" y="166" width="53" height="22" rx="11" fill="#F1E05A" fill-opacity="0.12" stroke="#F1E05A" stroke-opacity="0.45"/>
+    <text x="52" y="181" class="c-payrozgar" text-anchor="middle">React</text>
+    <rect x="87.0" y="166" width="66" height="22" rx="11" fill="#F1E05A" fill-opacity="0.12" stroke="#F1E05A" stroke-opacity="0.45"/>
+    <text x="120" y="181" class="c-payrozgar" text-anchor="middle">Node.js</text>
+    <rect x="161.2" y="166" width="66" height="22" rx="11" fill="#F1E05A" fill-opacity="0.12" stroke="#F1E05A" stroke-opacity="0.45"/>
+    <text x="194" y="181" class="c-payrozgar" text-anchor="middle">FinTech</text>
+
+</svg>
