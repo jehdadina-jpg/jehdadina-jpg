@@ -17,30 +17,14 @@ SANS = "'Segoe UI',Inter,Helvetica,Arial,sans-serif"
 
 # ── "A bit more": lead phrase, supporting detail, accent ──
 POINTS = [
-    ("Computer Engineering Student at KJSSE",
-     "Building AI/ML and FinTech systems while maintaining a SGPA of 9.04. "
-     "Focus on practical applications that solve real problems.", gh.BLUE),
-    ("AI & Machine Learning Engineering",
-     "Building ML models for financial markets, anomaly detection, and predictive analytics. "
-     "NLP systems for voice assistants and regional language processing.", gh.TEAL),
-    ("FinTech Development",
-     "Creating practical financial tools — mutual fund analysis platforms, payroll management "
-     "systems, and market intelligence dashboards for real-world use.", gh.PURPLE),
-    ("Full Stack Development",
-     "React and Next.js frontends, Node.js and Flask backends, PostgreSQL and Supabase databases. "
-     "Complete end-to-end applications deployed to production.", "#FF7B72"),
-    ("Agentic AI & LLM Integration",
-     "Implementing LLM-powered agents using OpenAI, Claude, and custom workflows. "
-     "Real research agents and intelligent automation systems.", gh.AMBER),
-    ("Leadership & Community Building",
-     "Founded Finance & Technology Club at KJSSE. Organized FinovateX 2026 — a 7-hour "
-     "FinTech dual-event. Contributing to fintech research and discourse.", "#F0A868"),
-    ("Industry Experience",
-     "Intern at Rayze Technologies (Founders Office), TÜV Rheinland India "
-     "(Industrial Services & Cyber Security). Real-world exposure to product and security.", "#A5D6FF"),
-    ("Open to Collaboration",
-     "Interested in AI/ML projects, FinTech innovation, and building impactful systems. "
-     "Available for internships and interesting projects.", gh.TEAL),
+    ("Computer Engineering @ KJSSE (SGPA: 9.04)",
+     "Building AI/ML and FinTech applications with high academic rigor and production standards.", gh.BLUE),
+    ("FinTech & Market Intelligence",
+     "MF Scope (Mutual Fund Analysis) & Anomaly Terminal (ML Stock Anomaly Detection).", gh.TEAL),
+    ("Agentic AI, Voice & Full Stack Apps",
+     "sahayAK (Multilingual Banking Voice Assistant) & PayRozgar (One-Tap Retail Salary Tracker).", gh.AMBER),
+    ("Leadership & Ecosystem",
+     "Founder of Finance & Technology Club at KJSSE. Lead organizer for FinovateX 2026 dual-event.", "#F0A868"),
 ]
 
 # ── "More projects": name, what it is, language, chips ──

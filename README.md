@@ -2,8 +2,8 @@
 
 <div align="center">
 
-<!-- Self-Hosted Animated Avatar Scanner Banner -->
-<img width="100%" src="./assets/avatar-scan.svg" alt="Jeh Dadina — Profile Scanner" />
+<!-- Self-Hosted Holographic Quantum Identity Banner -->
+<img width="100%" src="./assets/avatar-scan.svg" alt="Jeh Dadina — Identity Hub" />
 
 <br/>
 <br/>
@@ -44,29 +44,6 @@
 <div align="center">
   <img width="100%" src="./assets/about-list.svg" alt="A bit more — Background highlights" />
 </div>
-
-<br/>
-
-<details>
-<summary><b>👉 Expanded Profile Details & Achievements (click to expand)</b></summary>
-
-<br/>
-
-### 🎯 Core Engineering Focus
-
-- **AI & Machine Learning**: Building ML models for financial markets, anomaly detection, and predictive analytics.
-- **FinTech Systems**: Creating practical financial tools for mutual fund analysis, payroll management, and market intelligence.
-- **Full Stack Development**: End-to-end applications built with React, Next.js, Node.js, Flask, PostgreSQL, and Supabase.
-- **Agentic AI & NLP**: Implementing LLM-powered agents and multilingual voice workflows for specialized domains.
-
-### 🏆 Key Highlights & Leadership
-
-- **Founder & FinTech Head** — Finance & Technology Club at KJSSE, driving FinTech innovation and technical research.
-- **Organized FinovateX 2026** — 7-hour dual-event featuring AlgoTrading and Fraud Detection challenges.
-- **Founders Office Intern** at Rayze Technologies & **Industrial Services & Cyber Security Intern** at TÜV Rheinland India.
-- **Academic Excellence** — Maintaining a 9.04 SGPA while building production-grade applications.
-
-</details>
 
 ---
 
@@ -111,34 +88,6 @@
 
 </div>
 
-<br/>
-
-<details>
-<summary><b>🤖 Specialization Badges & Libraries</b></summary>
-
-<br/>
-
-#### Machine Learning & Data Science
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-4285F4?style=for-the-badge&logo=googleassistant&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-
-#### LLMs & Agentic AI
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude_API-8A3FFC?style=for-the-badge&logo=anthropic&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-
-#### FinTech & Financial Engineering
-![Financial Analysis](https://img.shields.io/badge/Financial_Analysis-00D4AA?style=for-the-badge&logo=chartdotjs&logoColor=white)
-![Market Intelligence](https://img.shields.io/badge/Market_Intelligence-1F6FEB?style=for-the-badge&logo=tradingview&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-</details>
-
 ---
 
 <!-- ══════════════════════════════  PROJECTS  ══════════════════════════════ -->
@@ -148,7 +97,7 @@
   <img width="100%" src="./assets/sections/projects.svg" alt="Featured Projects Section Header" />
 </p>
 
-<!-- 2x2 Grid of Custom Project Cards -->
+<!-- 2x2 Grid of 4 Distinct Colored Custom Project Cards -->
 <table border="0" width="100%">
   <tr>
     <td width="50%" align="center" style="border:none;">
@@ -209,10 +158,6 @@
     </td>
   </tr>
 </table>
-
-<br/>
-
-<img width="100%" src="./assets/contrib-graph.svg" alt="Contribution Heatmap Calendar" />
 
 </div>
 

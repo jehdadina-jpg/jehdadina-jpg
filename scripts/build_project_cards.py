@@ -1,39 +1,33 @@
 #!/usr/bin/env python3
 """Render each featured project as its own card SVG.
 
-Previously these were <td> cells in an HTML table, which GitHub styles as a
-plain bordered grid. Drawing the cards ourselves gives consistent height,
-a language dot, live star counts, tech chips and a hover-free "live" marker —
-and unlike the pin-card services it cannot run out of API quota.
+Each project gets a distinct, vibrant accent color, tech chips, and custom styling.
 """
 
 import pathlib
-
 import gh
 
 OUT_DIR = pathlib.Path(__file__).resolve().parent.parent / "assets" / "cards"
-
 W, H = 424, 208
 
-# slug, display title, language, [chips], one-line description, live?
+# slug, display title, language, [chips], description, live?, custom_accent_color
 PROJECTS = [
     ("mf-scope", "MF Scope", "Python", ["Finance", "Data Analysis"],
      "Comprehensive mutual fund analysis platform for the Indian market — data-driven insights "
-     "for investment research and financial decision-making.", False),
+     "for investment research and financial decision-making.", False, "#00D4AA"),
     ("anomaly-terminal", "Anomaly Terminal", "Python", ["ML", "Finance"],
      "Bloomberg-inspired stock market analysis platform combining technical analysis with machine learning "
-     "to detect unusual market behavior and generate AI-powered trading recommendations.", False),
+     "to detect unusual market behavior and generate AI-powered trading recommendations.", False, "#B191FF"),
     ("sahayak", "sahayAK", "Python", ["NLP", "Voice", "AI"],
      "AI-powered multilingual voice assistant for Indian bank branch desks — NLP capabilities and "
-     "regional language support to enhance customer service and accessibility.", False),
+     "regional language support to enhance customer service and accessibility.", False, "#F0A868"),
     ("payrozgar", "PayRozgar", "JavaScript", ["React", "Node.js", "FinTech"],
      "One-tap salary and attendance tracker for small-scale Indian retail shops — automated wage-advance "
-     "ledgers and instant salary slip generation.", False),
+     "ledgers and instant salary slip generation.", False, "#79C0FF"),
 ]
 
 
-def build(slug, title, lang, chips, desc, live, stars) -> str:
-    colour = gh.lang_colour(lang)
+def build(slug, title, lang, chips, desc, live, stars, colour) -> str:
     lines = gh.wrap(desc, W - 56, 12.5)[:4]
     body = "\n".join(
         f'    <text x="26" y="{112 + i * 18}" class="d-{slug}">{gh.esc(t)}</text>'
@@ -97,32 +91,41 @@ def build(slug, title, lang, chips, desc, live, stars) -> str:
 
   <rect width="{W}" height="{H}" rx="14" fill="url(#bg-{slug})"/>
   <rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="13" fill="none"
-        stroke="{gh.LINE}" stroke-width="2"/>
-  <path d="M14 1h{W - 28}a13 13 0 0 1 13 13v2H1v-2a13 13 0 0 1 13-13z" fill="url(#top-{slug})"/>
+        stroke="{colour}" stroke-opacity="0.45" stroke-width="1.8"/>
 
-  <text x="26" y="46" class="t-{slug}">{gh.esc(title)}</text>
-  <circle cx="31" cy="66" r="5" fill="{colour}"/>
-  <text x="43" y="70" class="g-{slug}">{gh.esc(lang)}</text>
+  <!-- Top Accent Bar -->
+  <rect x="1" y="1" width="{W - 2}" height="3" rx="1.5" fill="url(#top-{slug})"/>
+
+  <!-- Title & Language Dot -->
+  <circle cx="34" cy="38" r="6" fill="{colour}"/>
+  <text x="50" y="43" class="t-{slug}">{gh.esc(title)}</text>
+  <text x="50" y="62" class="g-{slug}">{gh.esc(lang).upper()}</text>
+
 {star_block}
-
 {body}
-
-{chr(10).join(chip_parts)}
+{"".join(chip_parts)}
 {live_block}
 </svg>
 '''
 
 
+def fetch_stars() -> dict[str, int]:
+    try:
+        repos = gh.api(f"users/{gh.USER}/repos?per_page=100")
+        return {r["name"].lower(): r["stargazers_count"] for r in repos if isinstance(r, dict)}
+    except Exception:
+        return {}
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for slug, title, lang, chips, desc, live in PROJECTS:
-        try:
-            stars = gh.api(f"repos/{gh.USER}/{slug}").get("stargazers_count", 0)
-        except Exception:
-            stars = 0
+    stars = fetch_stars()
+    for slug, title, lang, chips, desc, live, colour in PROJECTS:
+        s_count = stars.get(slug.lower(), 0)
+        svg = build(slug, title, lang, chips, desc, live, s_count, colour)
         path = OUT_DIR / f"{slug}.svg"
-        path.write_text(build(slug, title, lang, chips, desc, live, stars), encoding="utf-8")
-        print(f"wrote {path.name} (stars={stars})")
+        path.write_text(svg, encoding="utf-8")
+        print(f"wrote {path.name} (stars={s_count})")
 
 
 if __name__ == "__main__":
