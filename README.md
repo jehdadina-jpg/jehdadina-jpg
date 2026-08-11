@@ -9,7 +9,7 @@
 <br/>
 
 <a href="https://github.com/jehdadina-jpg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=850&color=1F6FEB&center=true&vCenter=true&width=700&lines=Computer+Engineering+Student+%E2%80%A2+KJSSE+Mumbai;AI%2FML+Engineer+%E2%80%A2+Machine+Learning+%2F+NLP;FinTech+Developer+%E2%80%A2+Financial+Intelligence;Full+Stack+Developer+%E2%80%A2+React+%2F+Next.js+%2F+Node.js;Python+%E2%80%A2+TypeScript+%E2%80%A2+C%2B%2B+%E2%80%A2+Java;Building+AI-powered+financial+systems." alt="What I do" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=850&color=00FF66&center=true&vCenter=true&width=700&lines=Computer+Engineering+Student+%E2%80%A2+KJSSE+Mumbai;AI%2FML+Engineer+%E2%80%A2+Machine+Learning+%2F+NLP;FinTech+Developer+%E2%80%A2+Financial+Intelligence;Full+Stack+Developer+%E2%80%A2+React+%2F+Next.js+%2F+Node.js;Python+%E2%80%A2+TypeScript+%E2%80%A2+C%2B%2B+%E2%80%A2+Java;Building+AI-powered+financial+systems." alt="What I do" />
 </a>
 
 <br/>

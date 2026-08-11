@@ -69,8 +69,8 @@ def build(stars: dict) -> str:
       <stop offset="0%" stop-color="{gh.BG0}"/><stop offset="100%" stop-color="{gh.BG1}"/>
     </linearGradient>
     <linearGradient id="iac" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6929C4"/><stop offset="50%" stop-color="#1F6FEB"/>
-      <stop offset="100%" stop-color="#00D4AA"/>
+      <stop offset="0%" stop-color="#00FF66"/><stop offset="50%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#39FF14"/>
     </linearGradient>
     <style>
       .ttl  {{ font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:16px;

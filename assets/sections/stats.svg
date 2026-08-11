@@ -3,18 +3,18 @@
   <title>By the Numbers</title>
   <defs>
     <linearGradient id="bg-stats" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#79C0FF" stop-opacity="0.16"/>
-      <stop offset="55%"  stop-color="#0d1117" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#00F0FF" stop-opacity="0.2"/>
+      <stop offset="55%"  stop-color="#050a07" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#050a07" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="rule-stats" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#79C0FF"/>
-      <stop offset="60%"  stop-color="#79C0FF" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#79C0FF" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#00F0FF"/>
+      <stop offset="60%"  stop-color="#00F0FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="badge-stats" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#79C0FF" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#79C0FF" stop-opacity="0.08"/>
+      <stop offset="0%"   stop-color="#00F0FF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.08"/>
     </linearGradient>
     <filter id="soft-stats" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="3.4" result="b"/>
@@ -24,29 +24,24 @@
       .t-stats { font-family:"Segoe UI",Inter,Helvetica,Arial,sans-serif;
                    font-size:27px; font-weight:800; fill:#ffffff; letter-spacing:-0.2px; }
       .k-stats { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
-                   font-size:11px; font-weight:600; fill:#79C0FF;
-                   fill-opacity:0.75; letter-spacing:2px; }
+                   font-size:11px; font-weight:600; fill:#00F0FF;
+                   fill-opacity:0.85; letter-spacing:2px; }
     </style>
   </defs>
 
-  <rect x="0" y="0" width="860" height="78" rx="12" fill="url(#bg-stats)"/>
+  <rect width="860" height="78" fill="url(#bg-stats)"/>
 
-  <!-- accent badge + vector glyph -->
-  <rect x="14" y="19" width="40" height="40" rx="11" fill="url(#badge-stats)"
-        stroke="#79C0FF" stroke-opacity="0.45"/>
-  <g transform="translate(22 27) scale(1.12)" color="#79C0FF" opacity="0.95">
-    <g><line x1="3" y1="21.4" x2="21" y2="21.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="4.4" y="13" width="3.8" height="6" rx="1.2" fill="currentColor"/><rect x="10.1" y="8" width="3.8" height="11" rx="1.2" fill="currentColor"/><rect x="15.8" y="3.4" width="3.8" height="15.6" rx="1.2" fill="currentColor"/></g>
+  <!-- Accent Rule -->
+  <rect x="0" y="74" width="860" height="2" fill="url(#rule-stats)"/>
+
+  <!-- Glyph Box -->
+  <rect x="18" y="16" width="44" height="44" rx="10" fill="url(#badge-stats)"
+        stroke="#00F0FF" stroke-opacity="0.5" stroke-width="1.2"/>
+  <g transform="translate(28 26)" color="#00F0FF" filter="url(#soft-stats)">
+    <line x1="3" y1="21.4" x2="21" y2="21.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="4.4" y="13" width="3.8" height="6" rx="1.2" fill="currentColor"/><rect x="10.1" y="8" width="3.8" height="11" rx="1.2" fill="currentColor"/><rect x="15.8" y="3.4" width="3.8" height="15.6" rx="1.2" fill="currentColor"/>
   </g>
 
-  <text x="70" y="36" class="t-stats">By the Numbers</text>
-  <text x="71" y="55" class="k-stats">PULLED LIVE FROM THE GITHUB API</text>
-
-  <!-- trailing rule with a travelling highlight -->
-  <rect x="70" y="66" width="752" height="2" rx="1" fill="url(#rule-stats)" opacity="0.5"/>
-  <rect y="66" width="90" height="2" rx="1" fill="#79C0FF" filter="url(#soft-stats)">
-    <animate attributeName="x" values="70;670;70" dur="7s"
-             keyTimes="0;0.5;1" calcMode="spline"
-             keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.15;0.75;0.15" dur="7s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Titles -->
+  <text x="76" y="38" class="k-stats">PULLED LIVE FROM THE GITHUB API</text>
+  <text x="76" y="62" class="t-stats">By the Numbers</text>
 </svg>

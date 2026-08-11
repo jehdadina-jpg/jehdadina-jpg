@@ -14,16 +14,16 @@ W, H = 424, 208
 PROJECTS = [
     ("mf-scope", "MF Scope", "Python", ["Finance", "Data Analysis"],
      "Comprehensive mutual fund analysis platform for the Indian market — data-driven insights "
-     "for investment research and financial decision-making.", False, "#00D4AA"),
+     "for investment research and financial decision-making.", False, "#00FF66"),
     ("anomaly-terminal", "Anomaly Terminal", "Python", ["ML", "Finance"],
      "Bloomberg-inspired stock market analysis platform combining technical analysis with machine learning "
-     "to detect unusual market behavior and generate AI-powered trading recommendations.", False, "#B191FF"),
+     "to detect unusual market behavior and generate AI-powered trading recommendations.", False, "#00F0FF"),
     ("sahayak", "sahayAK", "Python", ["NLP", "Voice", "AI"],
      "AI-powered multilingual voice assistant for Indian bank branch desks — NLP capabilities and "
-     "regional language support to enhance customer service and accessibility.", False, "#F0A868"),
+     "regional language support to enhance customer service and accessibility.", False, "#39FF14"),
     ("payrozgar", "PayRozgar", "JavaScript", ["React", "Node.js", "FinTech"],
      "One-tap salary and attendance tracker for small-scale Indian retail shops — automated wage-advance "
-     "ledgers and instant salary slip generation.", False, "#79C0FF"),
+     "ledgers and instant salary slip generation.", False, "#FFB800"),
 ]
 
 

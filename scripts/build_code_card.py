@@ -13,7 +13,7 @@ import gh
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "about-code.svg"
 
 KW, VAR, STR, NUM, PUN, CMT, PROP = (
-    "#FF7B72", "#79C0FF", "#A5D6FF", "#F0A868", "#8B949E", "#6E7A91", "#7EE7C7",
+    "#00FF66", "#00F0FF", "#A3FFC2", "#FFB800", "#52996A", "#2B5E39", "#39FF14",
 )
 
 # (indent, [(text, colour), ...]) — tokenised by hand so the colours are exact.
@@ -56,7 +56,7 @@ def build() -> str:
             col += len(text)
         rows.append(
             f'    <text y="{y:.1f}" class="ln">'
-            f'<tspan x="30" fill="#4d5b7c">{i + 1:>2}</tspan>{"".join(spans)}</text>'
+            f'<tspan x="30" fill="#2B5E39">{i + 1:>2}</tspan>{"".join(spans)}</text>'
         )
 
     cursor_x = 62 + len(LINES[-1][0][0]) * CHAR_W + 4 * CHAR_W
@@ -68,8 +68,8 @@ def build() -> str:
       <stop offset="0%" stop-color="{gh.BG0}"/><stop offset="100%" stop-color="{gh.BG1}"/>
     </linearGradient>
     <linearGradient id="cac" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6929C4"/><stop offset="50%" stop-color="#1F6FEB"/>
-      <stop offset="100%" stop-color="#00D4AA"/>
+      <stop offset="0%" stop-color="#00FF66"/><stop offset="50%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#39FF14"/>
     </linearGradient>
     <style>
       .ln  {{ font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace;

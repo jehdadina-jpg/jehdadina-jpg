@@ -18,13 +18,13 @@ SANS = "'Segoe UI',Inter,Helvetica,Arial,sans-serif"
 # ── "A bit more": lead phrase, supporting detail, accent ──
 POINTS = [
     ("Computer Engineering @ KJSSE (SGPA: 9.04)",
-     "Building AI/ML and FinTech applications with high academic rigor and production standards.", gh.BLUE),
+     "Building AI/ML and FinTech applications with high academic rigor and production standards.", "#00FF66"),
     ("FinTech & Market Intelligence",
-     "MF Scope (Mutual Fund Analysis) & Anomaly Terminal (ML Stock Anomaly Detection).", gh.TEAL),
+     "MF Scope (Mutual Fund Analysis) & Anomaly Terminal (ML Stock Anomaly Detection).", "#00F0FF"),
     ("Agentic AI, Voice & Full Stack Apps",
-     "sahayAK (Multilingual Banking Voice Assistant) & PayRozgar (One-Tap Retail Salary Tracker).", gh.AMBER),
+     "sahayAK (Multilingual Banking Voice Assistant) & PayRozgar (One-Tap Retail Salary Tracker).", "#39FF14"),
     ("Leadership & Ecosystem",
-     "Founder of Finance & Technology Club at KJSSE. Lead organizer for FinovateX 2026 dual-event.", "#F0A868"),
+     "Founder of Finance & Technology Club at KJSSE. Lead organizer for FinovateX 2026 dual-event.", "#FFB800"),
 ]
 
 # ── "More projects": name, what it is, language, chips ──
@@ -43,8 +43,8 @@ def shell(h, uid, body) -> str:
       <stop offset="0%" stop-color="{gh.BG0}"/><stop offset="100%" stop-color="{gh.BG1}"/>
     </linearGradient>
     <linearGradient id="ac{uid}" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6929C4"/><stop offset="50%" stop-color="#1F6FEB"/>
-      <stop offset="100%" stop-color="#00D4AA"/>
+      <stop offset="0%" stop-color="#00FF66"/><stop offset="50%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#39FF14"/>
     </linearGradient>
   </defs>
   <rect width="{W}" height="{h}" rx="13" fill="url(#bg{uid})"/>

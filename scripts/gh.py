@@ -11,11 +11,11 @@ import urllib.request
 
 USER = "jehdadina-jpg"
 
-# Shared palette so every generated card looks like it came from the same set.
-BG0, BG1 = "#0d1117", "#161b28"
-LINE = "#30363D"
-TEXT, MUTED, DIM = "#C9D1D9", "#8B949E", "#6E7A91"
-PURPLE, BLUE, TEAL, AMBER = "#B191FF", "#79C0FF", "#7EE7C7", "#F0A868"
+# Shared palette for Hacker / Terminal Theme
+BG0, BG1 = "#050a07", "#0a150e"
+LINE = "#1a3824"
+TEXT, MUTED, DIM = "#E0F8E8", "#629E75", "#2B5E39"
+PURPLE, BLUE, TEAL, AMBER = "#39FF14", "#00F0FF", "#00FF66", "#FFB800"
 
 LANG_COLOURS = {
     "TypeScript": "#3178C6", "JavaScript": "#F1E05A", "Python": "#3572A5",

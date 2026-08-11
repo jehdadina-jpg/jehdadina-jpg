@@ -3,37 +3,37 @@
   <title>sahayAK</title>
   <defs>
     <linearGradient id="bg-sahayak" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+      <stop offset="0%" stop-color="#050a07"/><stop offset="100%" stop-color="#0a150e"/>
     </linearGradient>
     <linearGradient id="top-sahayak" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F0A868"/>
-      <stop offset="100%" stop-color="#F0A868" stop-opacity="0.05"/>
+      <stop offset="0%" stop-color="#39FF14"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0.05"/>
     </linearGradient>
     <style>
       .t-sahayak { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
                    font-weight:700; fill:#ffffff; }
       .g-sahayak { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
-                   fill:#F0A868; letter-spacing:0.6px; }
+                   fill:#39FF14; letter-spacing:0.6px; }
       .d-sahayak { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
-                   fill:#8B949E; }
+                   fill:#629E75; }
       .c-sahayak { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
-                   font-weight:600; fill:#F0A868; }
+                   font-weight:600; fill:#39FF14; }
       .s-sahayak { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
-                   font-weight:700; fill:#F0A868; }
+                   font-weight:700; fill:#FFB800; }
       .l-sahayak { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
-                   font-weight:700; fill:#7EE7C7; letter-spacing:1.2px; }
+                   font-weight:700; fill:#00FF66; letter-spacing:1.2px; }
     </style>
   </defs>
 
   <rect width="424" height="208" rx="14" fill="url(#bg-sahayak)"/>
   <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
-        stroke="#F0A868" stroke-opacity="0.45" stroke-width="1.8"/>
+        stroke="#39FF14" stroke-opacity="0.45" stroke-width="1.8"/>
 
   <!-- Top Accent Bar -->
   <rect x="1" y="1" width="422" height="3" rx="1.5" fill="url(#top-sahayak)"/>
 
   <!-- Title & Language Dot -->
-  <circle cx="34" cy="38" r="6" fill="#F0A868"/>
+  <circle cx="34" cy="38" r="6" fill="#39FF14"/>
   <text x="50" y="43" class="t-sahayak">sahayAK</text>
   <text x="50" y="62" class="g-sahayak">PYTHON</text>
 
@@ -41,9 +41,9 @@
     <text x="26" y="112" class="d-sahayak">AI-powered multilingual voice assistant for Indian bank</text>
     <text x="26" y="130" class="d-sahayak">branch desks — NLP capabilities and regional language</text>
     <text x="26" y="148" class="d-sahayak">support to enhance customer service and accessibility.</text>
-    <rect x="26" y="166" width="40" height="22" rx="11" fill="#F0A868" fill-opacity="0.12" stroke="#F0A868" stroke-opacity="0.45"/>
-    <text x="46" y="181" class="c-sahayak" text-anchor="middle">NLP</text>    <rect x="73.8" y="166" width="53" height="22" rx="11" fill="#F0A868" fill-opacity="0.12" stroke="#F0A868" stroke-opacity="0.45"/>
-    <text x="100" y="181" class="c-sahayak" text-anchor="middle">Voice</text>    <rect x="134.8" y="166" width="33" height="22" rx="11" fill="#F0A868" fill-opacity="0.12" stroke="#F0A868" stroke-opacity="0.45"/>
+    <rect x="26" y="166" width="40" height="22" rx="11" fill="#39FF14" fill-opacity="0.12" stroke="#39FF14" stroke-opacity="0.45"/>
+    <text x="46" y="181" class="c-sahayak" text-anchor="middle">NLP</text>    <rect x="73.8" y="166" width="53" height="22" rx="11" fill="#39FF14" fill-opacity="0.12" stroke="#39FF14" stroke-opacity="0.45"/>
+    <text x="100" y="181" class="c-sahayak" text-anchor="middle">Voice</text>    <rect x="134.8" y="166" width="33" height="22" rx="11" fill="#39FF14" fill-opacity="0.12" stroke="#39FF14" stroke-opacity="0.45"/>
     <text x="151" y="181" class="c-sahayak" text-anchor="middle">AI</text>
 
 </svg>
