@@ -245,14 +245,6 @@ A full-stack FinTech solution streamlining payroll management for small-scale In
 
 ## 📊 GitHub Stats
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jehdadina-jpg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jehdadina-jpg&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-
-<br/><br/>
-
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=jehdadina-jpg&theme=tokyonight&hide_border=true&background=0D1117&stroke=1F6FEB&ring=00D4AA&fire=00D4AA&currStreakLabel=1F6FEB&sideNums=1F6FEB&currStreakNum=00D4AA&dates=8B949E&sideLabels=00D4AA" alt="Contribution streak" />
-
-<br/><br/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jehdadina-jpg&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=1F6FEB&line=00D4AA&point=00D4AA" alt="Contribution graph" />
 
