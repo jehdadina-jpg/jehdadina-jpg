@@ -1,14 +1,35 @@
+<!-- ══════════════════════════════  HERO  ══════════════════════════════ -->
+
 <div align="center">
 
-# Hi, I'm Jeh 👋
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:1F6FEB,100:6929C4&height=200&section=header&text=Jeh%20Dadina&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering%20Student%20%7C%20AI%2FML%20%C3%97%20FinTech&descAlignY=55&descSize=18" alt="Jeh Dadina — Computer Engineering Student" />
 
-**Computer Engineering student · Building AI-driven & full-stack systems**
+<br/>
+
+<a href="https://github.com/jehdadina-jpg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=850&color=1F6FEB&center=true&vCenter=true&width=700&lines=Computer+Engineering+Student+%E2%80%A2+KJSSE+Mumbai;AI%2FML+Engineer+%E2%80%A2+Machine+Learning+%2F+NLP;FinTech+Developer+%E2%80%A2+Financial+Intelligence;Full+Stack+Developer+%E2%80%A2+React+%2F+Next.js+%2F+Node.js;Python+%E2%80%A2+TypeScript+%E2%80%A2+C%2B%2B+%E2%80%A2+Java;Building+AI-powered+financial+systems." alt="What I do" />
+</a>
+
+<br/>
+
+### ⚡ Jump to
+
+<kbd>[🧠 About](#about)</kbd> &nbsp;
+<kbd>[🛠️ Stack](#stack)</kbd> &nbsp;
+<kbd>[🚀 Projects](#projects)</kbd> &nbsp;
+<kbd>[📊 Stats](#stats)</kbd> &nbsp;
+<kbd>[🤝 Connect](#connect)</kbd>
 
 </div>
 
-<br>
+---
 
-![About Me](./assets/sections/about.svg)
+<!-- ══════════════════════════════  ABOUT  ══════════════════════════════ -->
+<a id="about"></a>
+
+<div align="center">
+
+## 🧠 About Me
 
 ```typescript
 const jeh = {
@@ -33,6 +54,8 @@ const jeh = {
   ]
 };
 ```
+
+</div>
 
 <details>
 <summary><b>👉 More about my work (click to expand)</b></summary>
@@ -59,35 +82,84 @@ Interested in AI/ML projects, FinTech innovation, or building impactful systems?
 
 </details>
 
-<br>
+---
 
-![Connect](./assets/sections/connect.svg)
+<!-- ══════════════════════════════  STACK  ══════════════════════════════ -->
+<a id="stack"></a>
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/jehdadina">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://github.com/jehdadina-jpg">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://www.instagram.com/jehdadina/">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
-<a href="https://jehdadina.xyz">
-  <img src="https://img.shields.io/badge/Portfolio-00D4AA?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
-</a>
+## 🛠️ Tech Stack
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python,typescript,js,cpp,c,java&theme=dark" alt="languages" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,html,css,tailwind,figma&theme=dark" alt="frontend" />
+
+**Backend**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,flask,python&theme=dark" alt="backend" />
+
+**AI / ML · Data**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,anaconda&theme=dark" alt="ai and ml" />
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=postgres,supabase&theme=dark" alt="databases" />
+
+**Tools & DevOps**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker&theme=dark" alt="tools" />
 
 </div>
 
-<br>
+<br/>
 
-![Tech Stack](./assets/sections/stack.svg)
+<details>
+<summary><b>🤖 AI / ML & Data Science</b></summary>
+<br/>
 
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-4285F4?style=for-the-badge&logo=googleassistant&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-<br>
+**LLM & Agentic AI**
 
-![Projects](./assets/sections/projects.svg)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_API-8A3FFC?style=for-the-badge&logo=anthropic&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>💼 FinTech & Finance</b></summary>
+<br/>
+
+![Financial Analysis](https://img.shields.io/badge/Financial_Analysis-00D4AA?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Market Intelligence](https://img.shields.io/badge/Market_Intelligence-1F6FEB?style=for-the-badge&logo=tradingview&logoColor=white)
+![Data Visualization](https://img.shields.io/badge/Data_Visualization-FF6F00?style=for-the-badge&logo=plotly&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+</details>
+
+---
+
+<!-- ══════════════════════════════  PROJECTS  ══════════════════════════════ -->
+<a id="projects"></a>
+
+<div align="center">
+
+## 🚀 Featured Projects
+
+</div>
 
 ### 📊 MF Scope
 **Mutual Fund Analysis & Financial Intelligence Platform**
@@ -164,11 +236,14 @@ A full-stack FinTech solution streamlining payroll management for small-scale In
 
 </div>
 
-<br>
+---
 
-![GitHub Stats](./assets/sections/stats.svg)
+<!-- ══════════════════════════════  STATS  ══════════════════════════════ -->
+<a id="stats"></a>
 
 <div align="center">
+
+## 📊 GitHub Stats
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jehdadina-jpg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jehdadina-jpg&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
@@ -183,11 +258,36 @@ A full-stack FinTech solution streamlining payroll management for small-scale In
 
 </div>
 
-<br>
+---
+
+<!-- ══════════════════════════════  CONNECT  ══════════════════════════════ -->
+<a id="connect"></a>
 
 <div align="center">
 
-*Always building. Always improving.* 🚀
+## 🤝 Let's Connect
+
+<a href="https://www.linkedin.com/in/jehdadina">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://github.com/jehdadina-jpg">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://jehdadina.xyz">
+  <img src="https://img.shields.io/badge/Portfolio-00D4AA?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+</a>
+
+<br/><br/>
+
+**Interested in AI/ML, FinTech innovation, or building impactful systems?**
+
+**Open to internships, collaborations, and interesting projects at the intersection of fintech and AI.**
+
+<br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" alt="Random dev quote" />
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:1F6FEB,100:6929C4&height=130&section=footer&text=Building%20AI-powered%20financial%20systems&fontSize=18&fontColor=ffffff&fontAlignY=72" alt="footer" />
 
