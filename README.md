@@ -24,6 +24,13 @@
 <kbd>[🐍 Snake](#snake)</kbd> &nbsp;
 <kbd>[🤝 Connect](#connect)</kbd>
 
+<br/><br/>
+
+<a href="https://github.com/jehdadina-jpg/jehdadina-jpg/stargazers">
+  <img src="https://img.shields.io/github/stars/jehdadina-jpg/jehdadina-jpg?style=for-the-badge&logo=github&color=FFB800&label=⭐%20Star%20This%20Repo" alt="Star this repo" />
+</a>
+
+
 </div>
 
 ---
