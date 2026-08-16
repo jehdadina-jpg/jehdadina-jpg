@@ -88,7 +88,7 @@
     <text x="60"  y="282" class="kl" text-anchor="middle">REPOS</text>
     <text x="200" y="266" class="kv" text-anchor="middle">5</text>
     <text x="200" y="282" class="kl" text-anchor="middle">LANGUAGES</text>
-    <text x="340" y="266" class="kv" text-anchor="middle">9</text>
+    <text x="340" y="266" class="kv" text-anchor="middle">10</text>
     <text x="340" y="282" class="kl" text-anchor="middle">STARS</text>
     <text x="460" y="264" class="tl" text-anchor="middle">JavaScript</text>
     <text x="460" y="282" class="kl" text-anchor="middle">MOST USED</text>
