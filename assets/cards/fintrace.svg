@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="FinTrace — JavaScript project">
+  <title>FinTrace</title>
+  <defs>
+    <linearGradient id="bg-fintrace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a07"/><stop offset="100%" stop-color="#0a150e"/>
+    </linearGradient>
+    <linearGradient id="top-fintrace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3572A5"/>
+      <stop offset="100%" stop-color="#3572A5" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-fintrace { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-fintrace { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#3572A5; letter-spacing:0.6px; }
+      .d-fintrace { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#629E75; }
+      .c-fintrace { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#3572A5; }
+      .s-fintrace { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#FFB800; }
+      .l-fintrace { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#00FF66; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-fintrace)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#3572A5" stroke-opacity="0.45" stroke-width="1.8"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="1" y="1" width="422" height="3" rx="1.5" fill="url(#top-fintrace)"/>
+
+  <!-- Title & Language Dot -->
+  <circle cx="34" cy="38" r="6" fill="#3572A5"/>
+  <text x="50" y="43" class="t-fintrace">FinTrace</text>
+  <text x="50" y="62" class="g-fintrace">JAVASCRIPT</text>
+
+
+    <text x="26" y="112" class="d-fintrace">Live latency globe for financial infrastructure —</text>
+    <text x="26" y="130" class="d-fintrace">traceroutes to NSE, NYSE, Binance &amp; AWS regions,</text>
+    <text x="26" y="148" class="d-fintrace">streamed in real time onto a 3D rotating globe.</text>
+    <rect x="26" y="166" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
+    <text x="59" y="181" class="c-fintrace" text-anchor="middle">Node.js</text>    <rect x="100.2" y="166" width="79" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
+    <text x="140" y="181" class="c-fintrace" text-anchor="middle">Real-Time</text>    <rect x="187.4" y="166" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
+    <text x="220" y="181" class="c-fintrace" text-anchor="middle">FinTech</text>
+
+</svg>

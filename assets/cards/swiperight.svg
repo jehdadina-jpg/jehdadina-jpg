@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="SwipeRight — Python project">
+  <title>SwipeRight</title>
+  <defs>
+    <linearGradient id="bg-swiperight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a07"/><stop offset="100%" stop-color="#0a150e"/>
+    </linearGradient>
+    <linearGradient id="top-swiperight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF3EA5"/>
+      <stop offset="100%" stop-color="#FF3EA5" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-swiperight { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-swiperight { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#FF3EA5; letter-spacing:0.6px; }
+      .d-swiperight { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#629E75; }
+      .c-swiperight { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#FF3EA5; }
+      .s-swiperight { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#FFB800; }
+      .l-swiperight { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#00FF66; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-swiperight)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#FF3EA5" stroke-opacity="0.45" stroke-width="1.8"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="1" y="1" width="422" height="3" rx="1.5" fill="url(#top-swiperight)"/>
+
+  <!-- Title & Language Dot -->
+  <circle cx="34" cy="38" r="6" fill="#FF3EA5"/>
+  <text x="50" y="43" class="t-swiperight">SwipeRight</text>
+  <text x="50" y="62" class="g-swiperight">PYTHON</text>
+
+
+    <text x="26" y="112" class="d-swiperight">AI credit-card recommendation engine — parses bank</text>
+    <text x="26" y="130" class="d-swiperight">statements, ML-categorizes spend, and matches you to</text>
+    <text x="26" y="148" class="d-swiperight">the best card from 140+ Indian cards.</text>
+    <rect x="26" y="166" width="66" height="22" rx="11" fill="#FF3EA5" fill-opacity="0.12" stroke="#FF3EA5" stroke-opacity="0.45"/>
+    <text x="59" y="181" class="c-swiperight" text-anchor="middle">Next.js</text>    <rect x="100.2" y="166" width="33" height="22" rx="11" fill="#FF3EA5" fill-opacity="0.12" stroke="#FF3EA5" stroke-opacity="0.45"/>
+    <text x="117" y="181" class="c-swiperight" text-anchor="middle">ML</text>    <rect x="141.2" y="166" width="66" height="22" rx="11" fill="#FF3EA5" fill-opacity="0.12" stroke="#FF3EA5" stroke-opacity="0.45"/>
+    <text x="174" y="181" class="c-swiperight" text-anchor="middle">FinTech</text>
+
+</svg>
