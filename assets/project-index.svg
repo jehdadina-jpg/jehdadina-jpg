@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320"
-     width="860" height="320" role="img" aria-label="Full project index">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 252"
+     width="860" height="252" role="img" aria-label="Full project index">
   <title>Full project index</title>
   <defs>
     <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1">
@@ -28,8 +28,8 @@
     </style>
   </defs>
 
-  <rect width="860" height="320" rx="12" fill="url(#ibg)"/>
-  <rect x="1" y="1" width="858" height="318" rx="11" fill="none"
+  <rect width="860" height="252" rx="12" fill="url(#ibg)"/>
+  <rect x="1" y="1" width="858" height="250" rx="11" fill="none"
         stroke="url(#iac)" stroke-opacity="0.4" stroke-width="2"/>
 
   <text x="26" y="38" class="ttl">◈ Project Index</text>
@@ -42,47 +42,29 @@
   <line x1="22" y1="84" x2="838" y2="84" stroke="#1a3824"/>
 
   <rect x="14" y="74" width="832" height="34" rx="6" fill="#ffffff" fill-opacity="0.022"/>
-  <circle cx="32" cy="91" r="4.6" fill="#00F0FF"/>
-  <text x="46" y="96" class="nm">Anomaly Terminal</text>
-  <text x="300" y="96" class="dm">AI/ML</text>
-  <text x="452" y="96" class="st">ML · Python · Finance</text>
+  <circle cx="32" cy="91" r="4.6" fill="#3572A5"/>
+  <text x="46" y="96" class="nm">MF Scope</text>
+  <text x="300" y="96" class="dm">FinTech</text>
+  <text x="452" y="96" class="st">Python · Data · Pandas · Plotly</text>
   <text x="702" y="96" class="dash">—</text>
   <text x="802" y="96" class="dash">—</text>
-
-  <circle cx="32" cy="125" r="4.6" fill="#A78BFA"/>
-  <text x="46" y="130" class="nm">FTC KJSSE</text>
-  <text x="300" y="130" class="dm">Web · Club</text>
-  <text x="452" y="130" class="st">Web · Design</text>
+  <circle cx="32" cy="125" r="4.6" fill="#3572A5"/>
+  <text x="46" y="130" class="nm">Anomaly Terminal</text>
+  <text x="300" y="130" class="dm">AI/ML</text>
+  <text x="452" y="130" class="st">ML · Python · Finance</text>
   <text x="702" y="130" class="dash">—</text>
   <text x="802" y="130" class="dash">—</text>
-
   <rect x="14" y="142" width="832" height="34" rx="6" fill="#ffffff" fill-opacity="0.022"/>
-  <circle cx="32" cy="159" r="4.6" fill="#FFB800"/>
-  <text x="46" y="164" class="nm">PayRozgar</text>
-  <text x="300" y="164" class="dm">FinTech</text>
-  <text x="452" y="164" class="st">React · Node.js · Express</text>
+  <circle cx="32" cy="159" r="4.6" fill="#3572A5"/>
+  <text x="46" y="164" class="nm">sahayAK</text>
+  <text x="300" y="164" class="dm">AI/NLP</text>
+  <text x="452" y="164" class="st">NLP · Voice · AI</text>
   <text x="702" y="164" class="dash">—</text>
   <text x="802" y="164" class="dash">—</text>
-
-  <circle cx="32" cy="193" r="4.6" fill="#00FF66"/>
-  <text x="46" y="198" class="nm">MF Scope</text>
+  <circle cx="32" cy="193" r="4.6" fill="#F1E05A"/>
+  <text x="46" y="198" class="nm">PayRozgar</text>
   <text x="300" y="198" class="dm">FinTech</text>
-  <text x="452" y="198" class="st">Python · Data · Pandas · Plotly</text>
+  <text x="452" y="198" class="st">React · Node.js · Express</text>
   <text x="702" y="198" class="dash">—</text>
   <text x="802" y="198" class="dash">—</text>
-
-  <rect x="14" y="210" width="832" height="34" rx="6" fill="#ffffff" fill-opacity="0.022"/>
-  <circle cx="32" cy="227" r="4.6" fill="#FF3EA5"/>
-  <text x="46" y="232" class="nm">SwipeRight</text>
-  <text x="300" y="232" class="dm">FinTech · AI</text>
-  <text x="452" y="232" class="st">Next.js · ML · Python</text>
-  <text x="702" y="232" class="dash">—</text>
-  <text x="802" y="232" class="dash">—</text>
-
-  <circle cx="32" cy="261" r="4.6" fill="#3572A5"/>
-  <text x="46" y="266" class="nm">FinTrace</text>
-  <text x="300" y="266" class="dm">FinTech · Infra</text>
-  <text x="452" y="266" class="st">Node.js · Real-Time · SSE</text>
-  <text x="702" y="266" class="dash">—</text>
-  <text x="802" y="266" class="dash">—</text>
 </svg>
