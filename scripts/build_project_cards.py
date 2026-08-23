@@ -8,7 +8,7 @@ import pathlib
 import gh
 
 OUT_DIR = pathlib.Path(__file__).resolve().parent.parent / "assets" / "cards"
-W, H = 424, 208
+W = 424  # card height is derived per-project from how many lines its description wraps to
 
 # slug, display title, language, [chips], description, live?, custom_accent_color, repo (owner/name, for stars)
 PROJECTS = [
@@ -40,19 +40,24 @@ PROJECTS = [
 
 
 def build(slug, title, lang, chips, desc, live, stars, colour) -> str:
-    lines = gh.wrap(desc, W - 56, 12.5)[:4]
+    lines = gh.wrap(desc, W - 56, 12.5)[:5]
     body = "\n".join(
         f'    <text x="26" y="{112 + i * 18}" class="d-{slug}">{gh.esc(t)}</text>'
         for i, t in enumerate(lines)
     )
 
+    # Chip row sits below however many lines the description actually wrapped
+    # to — a fixed offset here is what let long descriptions collide with it.
+    chip_top = 112 + len(lines) * 18
+    H = chip_top + 42
+
     chip_parts, x = [], 26
     for chip in chips:
         cw = len(chip) * 6.6 + 20
         chip_parts.append(
-            f'    <rect x="{x}" y="{H - 42}" width="{cw:.0f}" height="22" rx="11" '
+            f'    <rect x="{x}" y="{chip_top}" width="{cw:.0f}" height="22" rx="11" '
             f'fill="{colour}" fill-opacity="0.12" stroke="{colour}" stroke-opacity="0.45"/>\n'
-            f'    <text x="{x + cw / 2:.0f}" y="{H - 27}" class="c-{slug}" '
+            f'    <text x="{x + cw / 2:.0f}" y="{chip_top + 15}" class="c-{slug}" '
             f'text-anchor="middle">{gh.esc(chip)}</text>'
         )
         x += cw + 8
@@ -68,10 +73,10 @@ def build(slug, title, lang, chips, desc, live, stars, colour) -> str:
     live_block = ""
     if live:
         live_block = (
-            f'  <circle cx="{W - 30}" cy="{H - 31}" r="4" fill="{gh.TEAL}">\n'
+            f'  <circle cx="{W - 30}" cy="{chip_top + 11}" r="4" fill="{gh.TEAL}">\n'
             f'    <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" '
             f'repeatCount="indefinite"/>\n  </circle>\n'
-            f'  <text x="{W - 40}" y="{H - 27}" class="l-{slug}" text-anchor="end">LIVE</text>'
+            f'  <text x="{W - 40}" y="{chip_top + 15}" class="l-{slug}" text-anchor="end">LIVE</text>'
         )
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}"

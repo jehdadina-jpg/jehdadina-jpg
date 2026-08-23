@@ -24,24 +24,6 @@ SECTIONS = [
         'stroke-width="2" stroke-linejoin="round" opacity="0.55"/>',
     ),
     (
-        "quantum", "Quantum Computing", "SHIPPED, DEPLOYED, PUBLICLY USABLE", "#39FF14",
-        '<circle cx="12" cy="12" r="2.6" fill="currentColor"/>'
-        '<ellipse cx="12" cy="12" rx="10.4" ry="4.4" fill="none" stroke="currentColor" stroke-width="1.8"/>'
-        '<ellipse cx="12" cy="12" rx="10.4" ry="4.4" fill="none" stroke="currentColor" '
-        'stroke-width="1.8" transform="rotate(60 12 12)"/>'
-        '<ellipse cx="12" cy="12" rx="10.4" ry="4.4" fill="none" stroke="currentColor" '
-        'stroke-width="1.8" transform="rotate(120 12 12)"/>',
-    ),
-    (
-        "apps", "App Development · AR / VR", "NATIVE, CROSS-PLATFORM, IMMERSIVE", "#00FF88",
-        '<rect x="3" y="2.6" width="11" height="18.8" rx="2.4" fill="none" '
-        'stroke="currentColor" stroke-width="2"/>'
-        '<line x1="6.6" y1="18.4" x2="10.4" y2="18.4" stroke="currentColor" '
-        'stroke-width="2" stroke-linecap="round"/>'
-        '<path d="M16.4 8.6h3.4a2 2 0 0 1 2 2v3.6a2 2 0 0 1-2 2h-1l-1.4 2-1.4-2h-.6" '
-        'fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
-    ),
-    (
         "projects", "Featured Projects", "THINGS THAT ACTUALLY RUN", "#FFB800",
         '<rect x="2.6" y="2.6" width="8.2" height="8.2" rx="1.8" fill="none" '
         'stroke="currentColor" stroke-width="2"/>'

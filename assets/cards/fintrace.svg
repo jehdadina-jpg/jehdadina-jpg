@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 226" width="424" height="226"
      role="img" aria-label="FinTrace — JavaScript project">
   <title>FinTrace</title>
   <defs>
@@ -25,8 +25,8 @@
     </style>
   </defs>
 
-  <rect width="424" height="208" rx="14" fill="url(#bg-fintrace)"/>
-  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+  <rect width="424" height="226" rx="14" fill="url(#bg-fintrace)"/>
+  <rect x="1" y="1" width="422" height="224" rx="13" fill="none"
         stroke="#3572A5" stroke-opacity="0.45" stroke-width="1.8"/>
 
   <!-- Top Accent Bar -->
@@ -42,9 +42,9 @@
     <text x="26" y="130" class="d-fintrace">— traceroutes to NSE, NYSE, Binance, and AWS regions,</text>
     <text x="26" y="148" class="d-fintrace">streamed via SSE onto a 3D rotating globe with a</text>
     <text x="26" y="166" class="d-fintrace">Bloomberg-terminal readout.</text>
-    <rect x="26" y="166" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
-    <text x="59" y="181" class="c-fintrace" text-anchor="middle">Node.js</text>    <rect x="100.19999999999999" y="166" width="79" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
-    <text x="140" y="181" class="c-fintrace" text-anchor="middle">Real-Time</text>    <rect x="187.6" y="166" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
-    <text x="221" y="181" class="c-fintrace" text-anchor="middle">FinTech</text>
+    <rect x="26" y="184" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
+    <text x="59" y="199" class="c-fintrace" text-anchor="middle">Node.js</text>    <rect x="100.19999999999999" y="184" width="79" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
+    <text x="140" y="199" class="c-fintrace" text-anchor="middle">Real-Time</text>    <rect x="187.6" y="184" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
+    <text x="221" y="199" class="c-fintrace" text-anchor="middle">FinTech</text>
 
 </svg>
