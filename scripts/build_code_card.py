@@ -59,7 +59,8 @@ def build() -> str:
             f'<tspan x="30" fill="#2B5E39">{i + 1:>2}</tspan>{"".join(spans)}</text>'
         )
 
-    cursor_x = 62 + len(LINES[-1][0][0]) * CHAR_W + 4 * CHAR_W
+    last_line_len = sum(len(text) for text, _ in LINES[-1])
+    cursor_x = 62 + last_line_len * CHAR_W + CHAR_W
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H:.0f}"
      role="img" aria-label="About Jeh, as a TypeScript object">
   <title>const jeh = {{ ... }}</title>

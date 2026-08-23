@@ -41,7 +41,7 @@
     <text y="218.0" class="ln"><tspan x="30" fill="#2B5E39"> 9</tspan><tspan x="62.0" fill="#39FF14">  currentSGPA</tspan><tspan x="155.9" fill="#52996A">: </tspan><tspan x="170.3" fill="#FFB800">9.04</tspan><tspan x="199.2" fill="#52996A">,</tspan></text>
     <text y="237.5" class="ln"><tspan x="30" fill="#2B5E39">10</tspan><tspan x="62.0" fill="#52996A">}</tspan><tspan x="69.2" fill="#00FF66"> as</tspan><tspan x="90.9" fill="#00FF66"> const</tspan><tspan x="134.2" fill="#52996A">;</tspan></text>
 
-  <rect x="98.1" y="227.5" width="8" height="14" fill="#00FF66">
+  <rect x="148.6" y="227.5" width="8" height="14" fill="#00FF66">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
   </rect>
 </svg>
