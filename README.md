@@ -38,7 +38,9 @@
 <br/>
 
 <div align="center">
-  <img width="100%" src="./assets/about-list.svg" alt="A bit more — Background highlights" />
+  <a href="https://jehdadina.xyz">
+    <img width="100%" src="./assets/about-list.svg" alt="A bit more — Background highlights" />
+  </a>
 </div>
 
 ---
