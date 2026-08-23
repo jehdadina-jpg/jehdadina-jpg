@@ -65,8 +65,8 @@ def build(slug, title, lang, chips, desc, live, stars, colour) -> str:
     star_block = ""
     if stars:
         star_block = (
-            f'  <path d="M{W - 74} 30 l3.2 6.6 7.2 1-5.2 5.1 1.2 7.2-6.4-3.4-6.4 3.4 '
-            f'1.2-7.2-5.2-5.1 7.2-1z" fill="{gh.AMBER}" opacity="0.95"/>\n'
+            f'  <path d="M{W - 52} 33 l2.6 5.4 5.9.9-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 '
+            f'1-5.9-4.3-4.1 5.9-.9z" fill="{gh.AMBER}" opacity="0.95"/>\n'
             f'  <text x="{W - 26}" y="42" class="s-{slug}" text-anchor="end">{stars}</text>'
         )
 

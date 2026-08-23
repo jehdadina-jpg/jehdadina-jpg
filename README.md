@@ -123,9 +123,7 @@
   </tr>
   <tr>
     <td width="50%" align="center" style="border:none;">
-      <a href="https://github.com/FTC-KJSSE/fintrace">
-        <img width="100%" src="./assets/cards/fintrace.svg" alt="FinTrace" />
-      </a>
+      <img width="100%" src="./assets/cards/fintrace.svg" alt="FinTrace" />
     </td>
     <td width="50%" align="center" style="border:none;">
       <a href="https://github.com/jehdadina-jpg/GitControl">
