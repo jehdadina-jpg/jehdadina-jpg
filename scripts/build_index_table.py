@@ -12,23 +12,31 @@ import gh
 
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "project-index.svg"
 
-# slug, display name, domain, language, stack summary, live?
+# slug, display name, domain, language, stack summary, live?, repo (owner/name, for stars)
 ROWS = [
-    ("mf-scope", "MF Scope", "FinTech", "Python", "Python · Data · Pandas · Plotly", False),
-    ("anomaly-terminal", "Anomaly Terminal", "AI/ML", "Python", "ML · Python · Finance", False),
-    ("sahayak", "sahayAK", "AI/NLP", "Python", "NLP · Voice · AI", False),
-    ("payrozgar", "PayRozgar", "FinTech", "JavaScript", "React · Node.js · Express", False),
+    ("anomaly-terminal", "Anomaly Terminal", "AI/ML", "Python", "ML · Python · Finance",
+     False, "jehdadina-jpg/anomaly"),
+    ("payrozgar", "PayRozgar", "FinTech", "HTML", "PWA · Vanilla JS · Service Worker",
+     False, "FTC-KJSSE/payrozgar"),
+    ("mf-scope", "MFScope", "FinTech", "Python", "FastAPI · React · Python",
+     False, "jehdadina-jpg/MFScope"),
+    ("swiperight", "SwipeRight", "FinTech · AI", "Python", "Next.js · ML · Python",
+     False, "jehdadina-jpg/swiperight"),
+    ("fintrace", "FinTrace", "FinTech · Infra", "JavaScript", "Node.js · Real-Time · SSE",
+     False, "FTC-KJSSE/fintrace"),
+    ("gitcontrol", "GitControl", "Dev Tools", "TypeScript", "Electron · TypeScript · Git",
+     False, "jehdadina-jpg/GitControl"),
 ]
 
 W = 860
-HEAD, ROW_H, TOP = 74, 34, 96
+HEAD, ROW_H, TOP = 74, 34, 110
 COLS = (26, 300, 452, 700, 800)  # project, domain, stack, stars, status
 
 
 def build(stars: dict) -> str:
     height = TOP + len(ROWS) * ROW_H + 20
     body = []
-    for i, (slug, name, domain, lang, stack, live) in enumerate(ROWS):
+    for i, (slug, name, domain, lang, stack, live, _repo) in enumerate(ROWS):
         y = TOP + i * ROW_H
         colour = gh.lang_colour(lang)
         if i % 2 == 0:
@@ -111,9 +119,9 @@ def build(stars: dict) -> str:
 
 def main() -> None:
     stars = {}
-    for slug, *_ in ROWS:
+    for slug, *_rest, repo in ROWS:
         try:
-            stars[slug] = gh.api(f"repos/{gh.USER}/{slug}").get("stargazers_count", 0)
+            stars[slug] = gh.api(f"repos/{repo}").get("stargazers_count", 0)
         except Exception:
             stars[slug] = 0
     OUT.parent.mkdir(parents=True, exist_ok=True)

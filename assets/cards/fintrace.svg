@@ -38,12 +38,13 @@
   <text x="50" y="62" class="g-fintrace">JAVASCRIPT</text>
 
 
-    <text x="26" y="112" class="d-fintrace">Live latency globe for financial infrastructure —</text>
-    <text x="26" y="130" class="d-fintrace">traceroutes to NSE, NYSE, Binance &amp; AWS regions,</text>
-    <text x="26" y="148" class="d-fintrace">streamed in real time onto a 3D rotating globe.</text>
+    <text x="26" y="112" class="d-fintrace">Live network-latency globe for financial infrastructure</text>
+    <text x="26" y="130" class="d-fintrace">— traceroutes to NSE, NYSE, Binance, and AWS regions,</text>
+    <text x="26" y="148" class="d-fintrace">streamed via SSE onto a 3D rotating globe with a</text>
+    <text x="26" y="166" class="d-fintrace">Bloomberg-terminal readout.</text>
     <rect x="26" y="166" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
-    <text x="59" y="181" class="c-fintrace" text-anchor="middle">Node.js</text>    <rect x="100.2" y="166" width="79" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
-    <text x="140" y="181" class="c-fintrace" text-anchor="middle">Real-Time</text>    <rect x="187.4" y="166" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
-    <text x="220" y="181" class="c-fintrace" text-anchor="middle">FinTech</text>
+    <text x="59" y="181" class="c-fintrace" text-anchor="middle">Node.js</text>    <rect x="100.19999999999999" y="166" width="79" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
+    <text x="140" y="181" class="c-fintrace" text-anchor="middle">Real-Time</text>    <rect x="187.6" y="166" width="66" height="22" rx="11" fill="#3572A5" fill-opacity="0.12" stroke="#3572A5" stroke-opacity="0.45"/>
+    <text x="221" y="181" class="c-fintrace" text-anchor="middle">FinTech</text>
 
 </svg>

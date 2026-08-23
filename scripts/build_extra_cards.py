@@ -20,15 +20,18 @@ POINTS = [
     ("Computer Engineering @ KJSSE (SGPA: 9.04)",
      "Building AI/ML and FinTech applications with high academic rigor and production standards.", "#00FF66"),
     ("FinTech & Market Intelligence",
-     "MF Scope (Mutual Fund Analysis) & Anomaly Terminal (ML Stock Anomaly Detection).", "#00F0FF"),
-    ("Agentic AI, Voice & Full Stack Apps",
-     "sahayAK (Multilingual Banking Voice Assistant) & PayRozgar (One-Tap Retail Salary Tracker).", "#39FF14"),
+     "MFScope (Mutual Fund Intelligence) & Anomaly Terminal (ML Stock Anomaly Detection).", "#00F0FF"),
+    ("AI-Powered FinTech Tools",
+     "SwipeRight (AI Credit-Card Recommendation Engine) & FinTrace (Latency Globe).", "#39FF14"),
+    ("Full Stack & Dev Tools",
+     "PayRozgar (Payroll PWA) & GitControl (Windows Git Desktop App).", "#FFB800"),
     ("Leadership & Ecosystem",
-     "Founder of Finance & Technology Club at KJSSE. Lead organizer for FinovateX 2026 dual-event.", "#FFB800"),
+     "Founder of Finance & Technology Club at KJSSE. Lead organizer for FinovateX 2026.", "#A78BFA"),
 ]
 
 # ── "More projects": name, what it is, language, chips ──
 XR_ROWS = [
+    ("FTC KJSSE", "Official website for the club I founded", "HTML", ["Web", "Club"]),
     ("FinovateX 2026", "7-hour FinTech dual-event", "Python", ["Event", "Data"]),
     ("Stock Research Agent", "Claude-powered research", "TypeScript", ["React", "Claude API"]),
     ("Pointer Aid 2.0", "SGPI calculator for KJSSE", "JavaScript", ["HTML/CSS/JS"]),
@@ -96,7 +99,7 @@ def about_list() -> str:
 
 
 def xr_table() -> str:
-    top, row_h = 96, 38
+    top, row_h = 108, 38
     cols = (26, 292, 604)
     rows = []
     for i, (name, what, lang, chips) in enumerate(XR_ROWS):

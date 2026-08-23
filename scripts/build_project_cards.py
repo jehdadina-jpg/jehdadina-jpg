@@ -10,20 +10,32 @@ import gh
 OUT_DIR = pathlib.Path(__file__).resolve().parent.parent / "assets" / "cards"
 W, H = 424, 208
 
-# slug, display title, language, [chips], description, live?, custom_accent_color
+# slug, display title, language, [chips], description, live?, custom_accent_color, repo (owner/name, for stars)
 PROJECTS = [
-    ("mf-scope", "MF Scope", "Python", ["Finance", "Data Analysis"],
-     "Comprehensive mutual fund analysis platform for the Indian market — data-driven insights "
-     "for investment research and financial decision-making.", False, "#00FF66"),
     ("anomaly-terminal", "Anomaly Terminal", "Python", ["ML", "Finance"],
-     "Bloomberg-inspired stock market analysis platform combining technical analysis with machine learning "
-     "to detect unusual market behavior and generate AI-powered trading recommendations.", False, "#00F0FF"),
-    ("sahayak", "sahayAK", "Python", ["NLP", "Voice", "AI"],
-     "AI-powered multilingual voice assistant for Indian bank branch desks — NLP capabilities and "
-     "regional language support to enhance customer service and accessibility.", False, "#39FF14"),
-    ("payrozgar", "PayRozgar", "JavaScript", ["React", "Node.js", "FinTech"],
-     "One-tap salary and attendance tracker for small-scale Indian retail shops — automated wage-advance "
-     "ledgers and instant salary slip generation.", False, "#FFB800"),
+     "Bloomberg-inspired stock market analysis platform combining technical analysis with ML to detect "
+     "unusual market behavior and generate AI-powered Buy, Hold, and Sell recommendations.",
+     False, "#00F0FF", "jehdadina-jpg/anomaly"),
+    ("payrozgar", "PayRozgar", "HTML", ["PWA", "Vanilla JS", "FinTech"],
+     "Offline-first payroll & attendance PWA for small shops — vanilla JS state engine, service-worker "
+     "caching, and auto-generated digital payslips. Built under FTC KJSSE.",
+     False, "#FFB800", "FTC-KJSSE/payrozgar"),
+    ("mf-scope", "MFScope", "Python", ["FastAPI", "React", "Data"],
+     "India mutual fund intelligence engine — pulls daily AMFI NAV data, engineers 30+ risk/sentiment "
+     "features, and scores funds Strong Buy → Strong Sell via a FastAPI + React dashboard.",
+     False, "#00FF66", "jehdadina-jpg/MFScope"),
+    ("swiperight", "SwipeRight", "Python", ["Next.js", "ML", "FinTech"],
+     "AI credit-card recommendation engine — parses bank statements, ML-categorizes spend across 13 "
+     "categories, and returns the one best card from 140+ Indian cards with an AI chat to explain why.",
+     False, "#FF3EA5", "jehdadina-jpg/swiperight"),
+    ("fintrace", "FinTrace", "JavaScript", ["Node.js", "Real-Time", "FinTech"],
+     "Live network-latency globe for financial infrastructure — traceroutes to NSE, NYSE, Binance, and "
+     "AWS regions, streamed via SSE onto a 3D rotating globe with a Bloomberg-terminal readout.",
+     False, "#3572A5", "FTC-KJSSE/fintrace"),
+    ("gitcontrol", "GitControl", "TypeScript", ["Electron", "Git", "Desktop"],
+     "A premium Windows desktop app for visually driving Git and GitHub from one place — no manual "
+     "shell commands required for everyday workflows.",
+     False, "#58A6FF", "jehdadina-jpg/GitControl"),
 ]
 
 
@@ -109,19 +121,17 @@ def build(slug, title, lang, chips, desc, live, stars, colour) -> str:
 '''
 
 
-def fetch_stars() -> dict[str, int]:
+def fetch_stars(repo: str) -> int:
     try:
-        repos = gh.api(f"users/{gh.USER}/repos?per_page=100")
-        return {r["name"].lower(): r["stargazers_count"] for r in repos if isinstance(r, dict)}
+        return gh.api(f"repos/{repo}").get("stargazers_count", 0)
     except Exception:
-        return {}
+        return 0
 
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    stars = fetch_stars()
-    for slug, title, lang, chips, desc, live, colour in PROJECTS:
-        s_count = stars.get(slug.lower(), 0)
+    for slug, title, lang, chips, desc, live, colour, repo in PROJECTS:
+        s_count = fetch_stars(repo)
         svg = build(slug, title, lang, chips, desc, live, s_count, colour)
         path = OUT_DIR / f"{slug}.svg"
         path.write_text(svg, encoding="utf-8")

@@ -37,11 +37,12 @@
   <text x="50" y="43" class="t-anomaly-terminal">Anomaly Terminal</text>
   <text x="50" y="62" class="g-anomaly-terminal">PYTHON</text>
 
-
+  <path d="M350 30 l3.2 6.6 7.2 1-5.2 5.1 1.2 7.2-6.4-3.4-6.4 3.4 1.2-7.2-5.2-5.1 7.2-1z" fill="#FFB800" opacity="0.95"/>
+  <text x="398" y="42" class="s-anomaly-terminal" text-anchor="end">8</text>
     <text x="26" y="112" class="d-anomaly-terminal">Bloomberg-inspired stock market analysis platform</text>
-    <text x="26" y="130" class="d-anomaly-terminal">combining technical analysis with machine learning to</text>
-    <text x="26" y="148" class="d-anomaly-terminal">detect unusual market behavior and generate AI-powered</text>
-    <text x="26" y="166" class="d-anomaly-terminal">trading recommendations.</text>
+    <text x="26" y="130" class="d-anomaly-terminal">combining technical analysis with ML to detect unusual</text>
+    <text x="26" y="148" class="d-anomaly-terminal">market behavior and generate AI-powered Buy, Hold, and</text>
+    <text x="26" y="166" class="d-anomaly-terminal">Sell recommendations.</text>
     <rect x="26" y="166" width="33" height="22" rx="11" fill="#00F0FF" fill-opacity="0.12" stroke="#00F0FF" stroke-opacity="0.45"/>
     <text x="43" y="181" class="c-anomaly-terminal" text-anchor="middle">ML</text>    <rect x="67.2" y="166" width="66" height="22" rx="11" fill="#00F0FF" fill-opacity="0.12" stroke="#00F0FF" stroke-opacity="0.45"/>
     <text x="100" y="181" class="c-anomaly-terminal" text-anchor="middle">Finance</text>

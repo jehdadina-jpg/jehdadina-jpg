@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="GitControl — TypeScript project">
+  <title>GitControl</title>
+  <defs>
+    <linearGradient id="bg-gitcontrol" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a07"/><stop offset="100%" stop-color="#0a150e"/>
+    </linearGradient>
+    <linearGradient id="top-gitcontrol" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-gitcontrol { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-gitcontrol { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#58A6FF; letter-spacing:0.6px; }
+      .d-gitcontrol { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#629E75; }
+      .c-gitcontrol { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#58A6FF; }
+      .s-gitcontrol { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#FFB800; }
+      .l-gitcontrol { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#00FF66; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-gitcontrol)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#58A6FF" stroke-opacity="0.45" stroke-width="1.8"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="1" y="1" width="422" height="3" rx="1.5" fill="url(#top-gitcontrol)"/>
+
+  <!-- Title & Language Dot -->
+  <circle cx="34" cy="38" r="6" fill="#58A6FF"/>
+  <text x="50" y="43" class="t-gitcontrol">GitControl</text>
+  <text x="50" y="62" class="g-gitcontrol">TYPESCRIPT</text>
+
+
+    <text x="26" y="112" class="d-gitcontrol">A premium Windows desktop app for visually driving Git</text>
+    <text x="26" y="130" class="d-gitcontrol">and GitHub from one place — no manual shell commands</text>
+    <text x="26" y="148" class="d-gitcontrol">required for everyday workflows.</text>
+    <rect x="26" y="166" width="73" height="22" rx="11" fill="#58A6FF" fill-opacity="0.12" stroke="#58A6FF" stroke-opacity="0.45"/>
+    <text x="62" y="181" class="c-gitcontrol" text-anchor="middle">Electron</text>    <rect x="106.8" y="166" width="40" height="22" rx="11" fill="#58A6FF" fill-opacity="0.12" stroke="#58A6FF" stroke-opacity="0.45"/>
+    <text x="127" y="181" class="c-gitcontrol" text-anchor="middle">Git</text>    <rect x="154.6" y="166" width="66" height="22" rx="11" fill="#58A6FF" fill-opacity="0.12" stroke="#58A6FF" stroke-opacity="0.45"/>
+    <text x="188" y="181" class="c-gitcontrol" text-anchor="middle">Desktop</text>
+
+</svg>

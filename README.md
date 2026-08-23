@@ -97,37 +97,37 @@
 <table border="0" width="100%">
   <tr>
     <td width="50%" align="center" style="border:none;">
-      <a href="https://github.com/jehdadina-jpg/anomaly-terminal">
+      <a href="https://github.com/jehdadina-jpg/anomaly">
         <img width="100%" src="./assets/cards/anomaly-terminal.svg" alt="Anomaly Terminal" />
       </a>
     </td>
     <td width="50%" align="center" style="border:none;">
-      <a href="https://swdc.somaiya.edu/p/ftc">
-        <img width="100%" src="./assets/cards/ftc-kjsse.svg" alt="FTC KJSSE" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" style="border:none;">
-      <a href="https://github.com/jehdadina-jpg/payrozgar">
+      <a href="https://github.com/FTC-KJSSE/payrozgar">
         <img width="100%" src="./assets/cards/payrozgar.svg" alt="PayRozgar" />
       </a>
     </td>
-    <td width="50%" align="center" style="border:none;">
-      <a href="https://github.com/jehdadina-jpg/mf-scope">
-        <img width="100%" src="./assets/cards/mf-scope.svg" alt="MF Scope" />
-      </a>
-    </td>
   </tr>
   <tr>
+    <td width="50%" align="center" style="border:none;">
+      <a href="https://github.com/jehdadina-jpg/MFScope">
+        <img width="100%" src="./assets/cards/mf-scope.svg" alt="MFScope" />
+      </a>
+    </td>
     <td width="50%" align="center" style="border:none;">
       <a href="https://github.com/jehdadina-jpg/swiperight">
         <img width="100%" src="./assets/cards/swiperight.svg" alt="SwipeRight" />
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" align="center" style="border:none;">
       <a href="https://github.com/FTC-KJSSE/fintrace">
         <img width="100%" src="./assets/cards/fintrace.svg" alt="FinTrace" />
+      </a>
+    </td>
+    <td width="50%" align="center" style="border:none;">
+      <a href="https://github.com/jehdadina-jpg/GitControl">
+        <img width="100%" src="./assets/cards/gitcontrol.svg" alt="GitControl" />
       </a>
     </td>
   </tr>
