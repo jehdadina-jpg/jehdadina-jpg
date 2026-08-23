@@ -12,20 +12,20 @@ import gh
 
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "project-index.svg"
 
-# slug, display name, domain, language, stack summary, live?, repo (owner/name, for stars)
+# slug, display name, domain, language, stack summary, status ("done"|"wip"), repo (owner/name, for stars)
 ROWS = [
     ("anomaly-terminal", "Anomaly Terminal", "AI/ML", "Python", "ML · Python · Finance",
-     False, "jehdadina-jpg/anomaly"),
+     "done", "jehdadina-jpg/anomaly"),
     ("payrozgar", "PayRozgar", "FinTech", "HTML", "PWA · Vanilla JS · Service Worker",
-     False, "FTC-KJSSE/payrozgar"),
+     "wip", "FTC-KJSSE/payrozgar"),
     ("mf-scope", "MFScope", "FinTech", "Python", "FastAPI · React · Python",
-     False, "jehdadina-jpg/MFScope"),
+     "done", "jehdadina-jpg/MFScope"),
     ("swiperight", "SwipeRight", "FinTech · AI", "Python", "Next.js · ML · Python",
-     False, "jehdadina-jpg/swiperight"),
+     "done", "jehdadina-jpg/swiperight"),
     ("fintrace", "FinTrace", "FinTech · Infra", "JavaScript", "Node.js · Real-Time · SSE",
-     False, "FTC-KJSSE/fintrace"),
+     "wip", "FTC-KJSSE/fintrace"),
     ("gitcontrol", "GitControl", "Dev Tools", "TypeScript", "Electron · TypeScript · Git",
-     False, "jehdadina-jpg/GitControl"),
+     "done", "jehdadina-jpg/GitControl"),
 ]
 
 W = 860
@@ -36,7 +36,7 @@ COLS = (26, 300, 452, 700, 800)  # project, domain, stack, stars, status
 def build(stars: dict) -> str:
     height = TOP + len(ROWS) * ROW_H + 20
     body = []
-    for i, (slug, name, domain, lang, stack, live, _repo) in enumerate(ROWS):
+    for i, (slug, name, domain, lang, stack, status, _repo) in enumerate(ROWS):
         y = TOP + i * ROW_H
         colour = gh.lang_colour(lang)
         if i % 2 == 0:
@@ -59,15 +59,19 @@ def build(stars: dict) -> str:
         else:
             body.append(f'  <text x="{COLS[3] + 2}" y="{y}" class="dash">—</text>')
 
-        if live:
+        if status == "done":
             body.append(
-                f'  <circle cx="{COLS[4] + 6}" cy="{y - 5}" r="4" fill="{gh.TEAL}">'
-                f'<animate attributeName="opacity" values="1;0.25;1" dur="2.4s" '
-                f'begin="{i * 0.12:.2f}s" repeatCount="indefinite"/></circle>'
-                f'<text x="{COLS[4] + 18}" y="{y}" class="lv">live</text>'
+                f'  <path d="M{COLS[4] + 1} {y - 5} l2.6 2.8 5.4-6" fill="none" '
+                f'stroke="{gh.TEAL}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
+                f'<text x="{COLS[4] + 18}" y="{y}" class="lv">Done</text>'
             )
         else:
-            body.append(f'  <text x="{COLS[4] + 2}" y="{y}" class="dash">—</text>')
+            body.append(
+                f'  <circle cx="{COLS[4] + 6}" cy="{y - 5}" r="4" fill="{gh.AMBER}">'
+                f'<animate attributeName="opacity" values="1;0.3;1" dur="1.6s" '
+                f'begin="{i * 0.12:.2f}s" repeatCount="indefinite"/></circle>'
+                f'<text x="{COLS[4] + 18}" y="{y}" class="wip">WIP</text>'
+            )
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {height}"
      width="{W}" height="{height}" role="img" aria-label="Full project index">
@@ -95,6 +99,8 @@ def build(stars: dict) -> str:
                font-weight:700; fill:{gh.AMBER}; }}
       .lv   {{ font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
                font-weight:700; fill:{gh.TEAL}; }}
+      .wip  {{ font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+               font-weight:700; fill:{gh.AMBER}; }}
       .dash {{ font-family:"JetBrains Mono",Consolas,monospace; font-size:12px; fill:#3d4759; }}
     </style>
   </defs>
