@@ -53,9 +53,6 @@ jobs:
       - name: Build about-me code card
         run: python scripts/build_code_card.py
 
-      - name: Build tech stack grid
-        run: python scripts/build_stack_grid.py
-
       - name: Build project cards
         run: python scripts/build_project_cards.py
         env:
