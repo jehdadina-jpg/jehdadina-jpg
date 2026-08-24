@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 860 806" width="860" height="806" role="img"
+     aria-label="Core technologies, grouped by category">
+  <title>Core technologies</title>
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a07"/><stop offset="100%" stop-color="#0a150e"/>
+    </linearGradient>
+    <linearGradient id="sac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00FF66"/><stop offset="50%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#39FF14"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="806" rx="13" fill="url(#sbg)"/>
+  <rect x="1" y="1" width="858" height="804" rx="12" fill="none"
+        stroke="url(#sac)" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="26" y="58" style="font:700 12.5px 'JetBrains Mono','SFMono-Regular',Consolas,monospace;fill:#00FF66;letter-spacing:1.4px">LANGUAGES</text>
+  <image href="https://skillicons.dev/icons?i=python&amp;theme=dark" x="49" y="80" width="38" height="38"/><text x="68" y="134" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Python</text>
+  <image href="https://skillicons.dev/icons?i=ts&amp;theme=dark" x="133" y="80" width="38" height="38"/><text x="152" y="134" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">TypeScript</text>
+  <image href="https://skillicons.dev/icons?i=js&amp;theme=dark" x="217" y="80" width="38" height="38"/><text x="236" y="134" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">JavaScript</text>
+  <image href="https://skillicons.dev/icons?i=cpp&amp;theme=dark" x="301" y="80" width="38" height="38"/><text x="320" y="134" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">C++</text>
+  <image href="https://skillicons.dev/icons?i=c&amp;theme=dark" x="385" y="80" width="38" height="38"/><text x="404" y="134" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">C</text>
+  <image href="https://skillicons.dev/icons?i=java&amp;theme=dark" x="469" y="80" width="38" height="38"/><text x="488" y="134" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Java</text>
+  <text x="26" y="184" style="font:700 12.5px 'JetBrains Mono','SFMono-Regular',Consolas,monospace;fill:#00F0FF;letter-spacing:1.4px">FRONTEND FRAMEWORKS &amp; UI</text>
+  <image href="https://skillicons.dev/icons?i=react&amp;theme=dark" x="49" y="206" width="38" height="38"/><text x="68" y="260" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">React</text>
+  <image href="https://skillicons.dev/icons?i=nextjs&amp;theme=dark" x="133" y="206" width="38" height="38"/><text x="152" y="260" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Next.js</text>
+  <image href="https://skillicons.dev/icons?i=vite&amp;theme=dark" x="217" y="206" width="38" height="38"/><text x="236" y="260" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Vite</text>
+  <image href="https://skillicons.dev/icons?i=html&amp;theme=dark" x="301" y="206" width="38" height="38"/><text x="320" y="260" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">HTML5</text>
+  <image href="https://skillicons.dev/icons?i=css&amp;theme=dark" x="385" y="206" width="38" height="38"/><text x="404" y="260" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">CSS5</text>
+  <image href="https://skillicons.dev/icons?i=tailwind&amp;theme=dark" x="469" y="206" width="38" height="38"/><text x="488" y="260" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Tailwind</text>
+  <image href="https://skillicons.dev/icons?i=electron&amp;theme=dark" x="553" y="206" width="38" height="38"/><text x="572" y="260" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Electron</text>
+  <image href="https://skillicons.dev/icons?i=figma&amp;theme=dark" x="637" y="206" width="38" height="38"/><text x="656" y="260" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Figma</text>
+  <text x="26" y="310" style="font:700 12.5px 'JetBrains Mono','SFMono-Regular',Consolas,monospace;fill:#39FF14;letter-spacing:1.4px">BACKEND &amp; APIS</text>
+  <image href="https://skillicons.dev/icons?i=nodejs&amp;theme=dark" x="49" y="332" width="38" height="38"/><text x="68" y="386" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Node.js</text>
+  <image href="https://skillicons.dev/icons?i=express&amp;theme=dark" x="133" y="332" width="38" height="38"/><text x="152" y="386" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Express</text>
+  <image href="https://skillicons.dev/icons?i=flask&amp;theme=dark" x="217" y="332" width="38" height="38"/><text x="236" y="386" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Flask</text>
+  <image href="https://skillicons.dev/icons?i=fastapi&amp;theme=dark" x="301" y="332" width="38" height="38"/><text x="320" y="386" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">FastAPI</text>
+  <image href="https://skillicons.dev/icons?i=python&amp;theme=dark" x="385" y="332" width="38" height="38"/><text x="404" y="386" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Python</text>
+  <text x="26" y="436" style="font:700 12.5px 'JetBrains Mono','SFMono-Regular',Consolas,monospace;fill:#00F0FF;letter-spacing:1.4px">AI / ML · DATA SCIENCE</text>
+  <image href="https://skillicons.dev/icons?i=pytorch&amp;theme=dark" x="49" y="458" width="38" height="38"/><text x="68" y="512" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">PyTorch</text>
+  <image href="https://skillicons.dev/icons?i=tensorflow&amp;theme=dark" x="133" y="458" width="38" height="38"/><text x="152" y="512" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">TensorFlow</text>
+  <image href="https://skillicons.dev/icons?i=sklearn&amp;theme=dark" x="217" y="458" width="38" height="38"/><text x="236" y="512" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">scikit-learn</text>
+  <image href="https://skillicons.dev/icons?i=anaconda&amp;theme=dark" x="301" y="458" width="38" height="38"/><text x="320" y="512" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Anaconda</text>
+  <image href="https://skillicons.dev/icons?i=d3&amp;theme=dark" x="385" y="458" width="38" height="38"/><text x="404" y="512" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">D3.js</text>
+  <text x="26" y="562" style="font:700 12.5px 'JetBrains Mono','SFMono-Regular',Consolas,monospace;fill:#FFB800;letter-spacing:1.4px">DATABASES &amp; CLOUD</text>
+  <image href="https://skillicons.dev/icons?i=postgres&amp;theme=dark" x="49" y="584" width="38" height="38"/><text x="68" y="638" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">PostgreSQL</text>
+  <image href="https://skillicons.dev/icons?i=supabase&amp;theme=dark" x="133" y="584" width="38" height="38"/><text x="152" y="638" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Supabase</text>
+  <image href="https://skillicons.dev/icons?i=mongodb&amp;theme=dark" x="217" y="584" width="38" height="38"/><text x="236" y="638" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">MongoDB</text>
+  <image href="https://skillicons.dev/icons?i=mysql&amp;theme=dark" x="301" y="584" width="38" height="38"/><text x="320" y="638" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">MySQL</text>
+  <image href="https://skillicons.dev/icons?i=vercel&amp;theme=dark" x="385" y="584" width="38" height="38"/><text x="404" y="638" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Vercel</text>
+  <image href="https://skillicons.dev/icons?i=netlify&amp;theme=dark" x="469" y="584" width="38" height="38"/><text x="488" y="638" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Netlify</text>
+  <text x="26" y="688" style="font:700 12.5px 'JetBrains Mono','SFMono-Regular',Consolas,monospace;fill:#A78BFA;letter-spacing:1.4px">DEVELOPER TOOLS &amp; ENVIRONMENT</text>
+  <image href="https://skillicons.dev/icons?i=git&amp;theme=dark" x="49" y="710" width="38" height="38"/><text x="68" y="764" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Git</text>
+  <image href="https://skillicons.dev/icons?i=github&amp;theme=dark" x="133" y="710" width="38" height="38"/><text x="152" y="764" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">GitHub</text>
+  <image href="https://skillicons.dev/icons?i=vscode&amp;theme=dark" x="217" y="710" width="38" height="38"/><text x="236" y="764" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">VS Code</text>
+  <image href="https://skillicons.dev/icons?i=linux&amp;theme=dark" x="301" y="710" width="38" height="38"/><text x="320" y="764" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Linux</text>
+  <image href="https://skillicons.dev/icons?i=docker&amp;theme=dark" x="385" y="710" width="38" height="38"/><text x="404" y="764" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Docker</text>
+  <image href="https://skillicons.dev/icons?i=windows&amp;theme=dark" x="469" y="710" width="38" height="38"/><text x="488" y="764" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Windows</text>
+  <image href="https://skillicons.dev/icons?i=postman&amp;theme=dark" x="553" y="710" width="38" height="38"/><text x="572" y="764" text-anchor="middle" style="font:600 10px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#629E75">Postman</text>
+</svg>

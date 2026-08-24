@@ -50,37 +50,7 @@
 </p>
 
 <div align="center">
-
-### 💻 Core Technologies
-
-**Languages**  
-<img src="https://skillicons.dev/icons?i=python,typescript,js,cpp,c,java&theme=dark" alt="Languages" />
-
-<br/>
-
-**Frontend Frameworks & UI**  
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,html,css,tailwind,electron,figma&theme=dark" alt="Frontend" />
-
-<br/>
-
-**Backend & APIs**  
-<img src="https://skillicons.dev/icons?i=nodejs,express,flask,fastapi,python&theme=dark" alt="Backend" />
-
-<br/>
-
-**AI / ML · Data Science**  
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,anaconda,d3&theme=dark" alt="AI/ML" />
-
-<br/>
-
-**Databases & Cloud**  
-<img src="https://skillicons.dev/icons?i=postgres,supabase,mongodb,mysql,vercel,netlify&theme=dark" alt="Databases" />
-
-<br/>
-
-**Developer Tools & Environment**  
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker,windows,postman&theme=dark" alt="Tools" />
-
+  <img width="100%" src="./assets/stack-grid.svg" alt="Core Technologies — grouped by category with labels" />
 </div>
 
 ---
