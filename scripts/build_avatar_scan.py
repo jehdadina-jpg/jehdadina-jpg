@@ -138,7 +138,7 @@ def build(avatar_uri: str) -> str:
     <!-- Terminal Box -->
     <rect x="0" y="66" width="490" height="66" rx="8" fill="#030704" fill-opacity="0.8" stroke="#1a3824" stroke-width="1"/>
     <text x="16" y="90" class="mono"><tspan fill="#00FF66">&gt;</tspan> <tspan fill="#E0F8E8">INSTITUTION:</tspan> KJ Somaiya School of Engineering</text>
-    <text x="16" y="112" class="mono"><tspan fill="#00FF66">&gt;</tspan> <tspan fill="#E0F8E8">CURRENT SGPA:</tspan> <tspan fill="#FFB800" font-weight="700">9.04</tspan> | <tspan fill="#E0F8E8">FOUNDER @</tspan> FinTech Club</text>
+    <text x="16" y="112" class="mono"><tspan fill="#00FF66">&gt;</tspan> <tspan fill="#E0F8E8">CURRENT SGPA:</tspan> <tspan fill="#FFB800" font-weight="700">9.04</tspan> | <tspan fill="#E0F8E8">FOUNDER @</tspan> FTC KJSSE</text>
   </g>
 
   <!-- Skill Pill Cards -->

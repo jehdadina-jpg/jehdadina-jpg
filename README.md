@@ -5,9 +5,6 @@
 <!-- Self-Hosted Holographic Quantum Identity Banner -->
 <img width="100%" src="./assets/avatar-scan.svg" alt="Jeh Dadina — Identity Hub" />
 
-<br/>
-<br/>
-
 ### ⚡ Quick Navigation
 
 <kbd>[🧠 About](#about)</kbd> &nbsp;
@@ -62,7 +59,7 @@
 <br/>
 
 **Frontend Frameworks & UI**  
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,html,css,tailwind,figma&theme=dark" alt="Frontend" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,html,css,tailwind,electron,figma&theme=dark" alt="Frontend" />
 
 <br/>
 
@@ -77,12 +74,12 @@
 <br/>
 
 **Databases & Cloud**  
-<img src="https://skillicons.dev/icons?i=postgres,supabase&theme=dark" alt="Databases" />
+<img src="https://skillicons.dev/icons?i=postgres,supabase,mongodb,mysql,vercel,netlify&theme=dark" alt="Databases" />
 
 <br/>
 
 **Developer Tools & Environment**  
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker&theme=dark" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker,windows,postman&theme=dark" alt="Tools" />
 
 </div>
 

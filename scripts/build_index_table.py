@@ -16,18 +16,18 @@ OUT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "project-index
 ROWS = [
     ("anomaly-terminal", "Anomaly Terminal", "AI/ML", "Python", "ML · Python · Finance",
      "done", "jehdadina-jpg/anomaly"),
-    ("payrozgar", "PayRozgar", "FinTech", "HTML", "PWA · Vanilla JS · Service Worker",
-     "wip", "FTC-KJSSE/payrozgar"),
     ("mf-scope", "MFScope", "FinTech", "Python", "FastAPI · React · Python",
      "done", "jehdadina-jpg/MFScope"),
     ("swiperight", "SwipeRight", "FinTech · AI", "Python", "Next.js · ML · Python",
      "done", "jehdadina-jpg/swiperight"),
-    ("fintrace", "FinTrace", "FinTech · Infra", "JavaScript", "Node.js · Real-Time · SSE",
-     "wip", "FTC-KJSSE/fintrace"),
     ("gitcontrol", "GitControl", "Dev Tools", "TypeScript", "Electron · TypeScript · Git",
      "done", "jehdadina-jpg/GitControl"),
     ("moneyflow", "MoneyFlow", "FinTech · Data Viz", "Python", "FastAPI · D3.js · yfinance",
      "done", "jehdadina-jpg/moneyflow"),
+    ("payrozgar", "PayRozgar", "FinTech", "HTML", "PWA · Vanilla JS · Service Worker",
+     "wip", "FTC-KJSSE/payrozgar"),
+    ("fintrace", "FinTrace", "FinTech · Infra", "JavaScript", "Node.js · Real-Time · SSE",
+     "wip", "FTC-KJSSE/fintrace"),
 ]
 
 W = 860

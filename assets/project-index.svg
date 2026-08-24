@@ -50,43 +50,43 @@
   <text x="452" y="110" class="st">ML · Python · Finance</text>
   <path d="M700 98 l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z" fill="#FFB800"/><text x="720" y="110" class="sc">8</text>
   <path d="M801 105 l2.6 2.8 5.4-6" fill="none" stroke="#00FF66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="818" y="110" class="lv">Done</text>
-  <circle cx="32" cy="139" r="4.6" fill="#E34C26"/>
-  <text x="46" y="144" class="nm">PayRozgar</text>
+  <circle cx="32" cy="139" r="4.6" fill="#3572A5"/>
+  <text x="46" y="144" class="nm">MFScope</text>
   <text x="300" y="144" class="dm">FinTech</text>
-  <text x="452" y="144" class="st">PWA · Vanilla JS · Service Worker</text>
+  <text x="452" y="144" class="st">FastAPI · React · Python</text>
   <text x="702" y="144" class="dash">—</text>
-  <circle cx="806" cy="139" r="4" fill="#FFB800"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" begin="0.12s" repeatCount="indefinite"/></circle><text x="818" y="144" class="wip">WIP</text>
+  <path d="M801 139 l2.6 2.8 5.4-6" fill="none" stroke="#00FF66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="818" y="144" class="lv">Done</text>
   <rect x="14" y="156" width="832" height="34" rx="6" fill="#ffffff" fill-opacity="0.022"/>
   <circle cx="32" cy="173" r="4.6" fill="#3572A5"/>
-  <text x="46" y="178" class="nm">MFScope</text>
-  <text x="300" y="178" class="dm">FinTech</text>
-  <text x="452" y="178" class="st">FastAPI · React · Python</text>
+  <text x="46" y="178" class="nm">SwipeRight</text>
+  <text x="300" y="178" class="dm">FinTech · AI</text>
+  <text x="452" y="178" class="st">Next.js · ML · Python</text>
   <text x="702" y="178" class="dash">—</text>
   <path d="M801 173 l2.6 2.8 5.4-6" fill="none" stroke="#00FF66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="818" y="178" class="lv">Done</text>
-  <circle cx="32" cy="207" r="4.6" fill="#3572A5"/>
-  <text x="46" y="212" class="nm">SwipeRight</text>
-  <text x="300" y="212" class="dm">FinTech · AI</text>
-  <text x="452" y="212" class="st">Next.js · ML · Python</text>
+  <circle cx="32" cy="207" r="4.6" fill="#3178C6"/>
+  <text x="46" y="212" class="nm">GitControl</text>
+  <text x="300" y="212" class="dm">Dev Tools</text>
+  <text x="452" y="212" class="st">Electron · TypeScript · Git</text>
   <text x="702" y="212" class="dash">—</text>
   <path d="M801 207 l2.6 2.8 5.4-6" fill="none" stroke="#00FF66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="818" y="212" class="lv">Done</text>
   <rect x="14" y="224" width="832" height="34" rx="6" fill="#ffffff" fill-opacity="0.022"/>
-  <circle cx="32" cy="241" r="4.6" fill="#F1E05A"/>
-  <text x="46" y="246" class="nm">FinTrace</text>
-  <text x="300" y="246" class="dm">FinTech · Infra</text>
-  <text x="452" y="246" class="st">Node.js · Real-Time · SSE</text>
+  <circle cx="32" cy="241" r="4.6" fill="#3572A5"/>
+  <text x="46" y="246" class="nm">MoneyFlow</text>
+  <text x="300" y="246" class="dm">FinTech · Data Viz</text>
+  <text x="452" y="246" class="st">FastAPI · D3.js · yfinance</text>
   <text x="702" y="246" class="dash">—</text>
-  <circle cx="806" cy="241" r="4" fill="#FFB800"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" begin="0.48s" repeatCount="indefinite"/></circle><text x="818" y="246" class="wip">WIP</text>
-  <circle cx="32" cy="275" r="4.6" fill="#3178C6"/>
-  <text x="46" y="280" class="nm">GitControl</text>
-  <text x="300" y="280" class="dm">Dev Tools</text>
-  <text x="452" y="280" class="st">Electron · TypeScript · Git</text>
+  <path d="M801 241 l2.6 2.8 5.4-6" fill="none" stroke="#00FF66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="818" y="246" class="lv">Done</text>
+  <circle cx="32" cy="275" r="4.6" fill="#E34C26"/>
+  <text x="46" y="280" class="nm">PayRozgar</text>
+  <text x="300" y="280" class="dm">FinTech</text>
+  <text x="452" y="280" class="st">PWA · Vanilla JS · Service Worker</text>
   <text x="702" y="280" class="dash">—</text>
-  <path d="M801 275 l2.6 2.8 5.4-6" fill="none" stroke="#00FF66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="818" y="280" class="lv">Done</text>
+  <circle cx="806" cy="275" r="4" fill="#FFB800"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" begin="0.60s" repeatCount="indefinite"/></circle><text x="818" y="280" class="wip">WIP</text>
   <rect x="14" y="292" width="832" height="34" rx="6" fill="#ffffff" fill-opacity="0.022"/>
-  <circle cx="32" cy="309" r="4.6" fill="#3572A5"/>
-  <text x="46" y="314" class="nm">MoneyFlow</text>
-  <text x="300" y="314" class="dm">FinTech · Data Viz</text>
-  <text x="452" y="314" class="st">FastAPI · D3.js · yfinance</text>
+  <circle cx="32" cy="309" r="4.6" fill="#F1E05A"/>
+  <text x="46" y="314" class="nm">FinTrace</text>
+  <text x="300" y="314" class="dm">FinTech · Infra</text>
+  <text x="452" y="314" class="st">Node.js · Real-Time · SSE</text>
   <text x="702" y="314" class="dash">—</text>
-  <path d="M801 309 l2.6 2.8 5.4-6" fill="none" stroke="#00FF66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="818" y="314" class="lv">Done</text>
+  <circle cx="806" cy="309" r="4" fill="#FFB800"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" begin="0.72s" repeatCount="indefinite"/></circle><text x="818" y="314" class="wip">WIP</text>
 </svg>
