@@ -26,6 +26,8 @@ ROWS = [
      "wip", "FTC-KJSSE/fintrace"),
     ("gitcontrol", "GitControl", "Dev Tools", "TypeScript", "Electron · TypeScript · Git",
      "done", "jehdadina-jpg/GitControl"),
+    ("moneyflow", "MoneyFlow", "FinTech · Data Viz", "Python", "FastAPI · D3.js · yfinance",
+     "done", "jehdadina-jpg/moneyflow"),
 ]
 
 W = 860

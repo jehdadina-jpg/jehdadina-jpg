@@ -36,6 +36,10 @@ PROJECTS = [
      "A premium Windows desktop app for visually driving Git and GitHub from one place — no manual "
      "shell commands required for everyday workflows.",
      False, "#58A6FF", "jehdadina-jpg/GitControl"),
+    ("moneyflow", "MoneyFlow", "Python", ["FastAPI", "D3.js", "Real-Time"],
+     "Live Bloomberg-terminal-style treemap heatmap for the Nifty 50 — FastAPI + yfinance backend "
+     "streaming real-time market data onto a D3.js frontend.",
+     False, "#A78BFA", "jehdadina-jpg/moneyflow"),
 ]
 
 

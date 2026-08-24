@@ -25,6 +25,8 @@ POINTS = [
      "SwipeRight (AI Credit-Card Recommendation Engine) & FinTrace (Latency Globe).", "#39FF14"),
     ("Full Stack & Dev Tools",
      "PayRozgar (Payroll PWA) & GitControl (Windows Git Desktop App).", "#FFB800"),
+    ("Data Visualization & Market Analytics",
+     "MoneyFlow — live Bloomberg-style treemap heatmap for the Nifty 50.", "#FF6B6B"),
     ("Leadership & Ecosystem",
      "Founder of Finance & Technology Club at KJSSE. Lead organizer for FinovateX 2026.", "#A78BFA"),
 ]

@@ -67,12 +67,12 @@
 <br/>
 
 **Backend & APIs**  
-<img src="https://skillicons.dev/icons?i=nodejs,express,flask,python&theme=dark" alt="Backend" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,flask,fastapi,python&theme=dark" alt="Backend" />
 
 <br/>
 
 **AI / ML · Data Science**  
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,anaconda&theme=dark" alt="AI/ML" />
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,anaconda,d3&theme=dark" alt="AI/ML" />
 
 <br/>
 
@@ -130,6 +130,14 @@
         <img width="100%" src="./assets/cards/gitcontrol.svg" alt="GitControl" />
       </a>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" style="border:none;">
+      <a href="https://moneyflow-nu.vercel.app/">
+        <img width="100%" src="./assets/cards/moneyflow.svg" alt="MoneyFlow" />
+      </a>
+    </td>
+    <td width="50%" style="border:none;"></td>
   </tr>
 </table>
 

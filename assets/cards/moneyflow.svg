@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="MoneyFlow — Python project">
+  <title>MoneyFlow</title>
+  <defs>
+    <linearGradient id="bg-moneyflow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a07"/><stop offset="100%" stop-color="#0a150e"/>
+    </linearGradient>
+    <linearGradient id="top-moneyflow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-moneyflow { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-moneyflow { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#A78BFA; letter-spacing:0.6px; }
+      .d-moneyflow { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#629E75; }
+      .c-moneyflow { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#A78BFA; }
+      .s-moneyflow { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#FFB800; }
+      .l-moneyflow { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#00FF66; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-moneyflow)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.8"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="1" y="1" width="422" height="3" rx="1.5" fill="url(#top-moneyflow)"/>
+
+  <!-- Title & Language Dot -->
+  <circle cx="34" cy="38" r="6" fill="#A78BFA"/>
+  <text x="50" y="43" class="t-moneyflow">MoneyFlow</text>
+  <text x="50" y="62" class="g-moneyflow">PYTHON</text>
+
+
+    <text x="26" y="112" class="d-moneyflow">Live Bloomberg-terminal-style treemap heatmap for the</text>
+    <text x="26" y="130" class="d-moneyflow">Nifty 50 — FastAPI + yfinance backend streaming</text>
+    <text x="26" y="148" class="d-moneyflow">real-time market data onto a D3.js frontend.</text>
+    <rect x="26" y="166" width="66" height="22" rx="11" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <text x="59" y="181" class="c-moneyflow" text-anchor="middle">FastAPI</text>    <rect x="100.19999999999999" y="166" width="53" height="22" rx="11" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <text x="127" y="181" class="c-moneyflow" text-anchor="middle">D3.js</text>    <rect x="161.2" y="166" width="79" height="22" rx="11" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <text x="201" y="181" class="c-moneyflow" text-anchor="middle">Real-Time</text>
+
+</svg>
