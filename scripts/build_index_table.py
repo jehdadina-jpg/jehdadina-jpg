@@ -12,6 +12,15 @@ import gh
 
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "project-index.svg"
 
+# Same grouping/colours as the "A bit more" card, so a project's dot means
+# the same thing in both places instead of one being GitHub's language colour.
+GROUP_COLOUR = {
+    "anomaly-terminal": "#00F0FF", "mf-scope": "#00F0FF",       # FinTech & Market Intelligence
+    "swiperight": "#39FF14", "fintrace": "#39FF14",             # AI-Powered FinTech Tools
+    "payrozgar": "#FFB800", "gitcontrol": "#FFB800",            # Full Stack & Dev Tools
+    "moneyflow": "#FF6B6B", "alpha": "#FF6B6B",                 # Quant & Market Data Viz
+}
+
 # slug, display name, domain, language, stack summary, status ("done"|"wip"), repo (owner/name, for stars)
 ROWS = [
     ("anomaly-terminal", "Anomaly Terminal", "AI/ML", "Python", "ML · Python · Finance",
@@ -42,7 +51,7 @@ def build(stars: dict) -> str:
     body = []
     for i, (slug, name, domain, lang, stack, status, _repo) in enumerate(ROWS):
         y = TOP + i * ROW_H
-        colour = gh.lang_colour(lang)
+        colour = GROUP_COLOUR.get(slug, gh.lang_colour(lang))
         if i % 2 == 0:
             body.append(
                 f'  <rect x="14" y="{y - 22}" width="{W - 28}" height="{ROW_H}" rx="6" '
