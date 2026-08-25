@@ -24,6 +24,8 @@ ROWS = [
      "done", "jehdadina-jpg/GitControl"),
     ("moneyflow", "MoneyFlow", "FinTech · Data Viz", "Python", "FastAPI · D3.js · yfinance",
      "done", "jehdadina-jpg/moneyflow"),
+    ("alpha", "Alpha", "FinTech · Quant", "Python", "FastAPI · statsmodels · yfinance",
+     "done", "jehdadina-jpg/alpha"),
     ("payrozgar", "PayRozgar", "FinTech", "HTML", "PWA · Vanilla JS · Service Worker",
      "wip", "FTC-KJSSE/payrozgar"),
     ("fintrace", "FinTrace", "FinTech · Infra", "JavaScript", "Node.js · Real-Time · SSE",

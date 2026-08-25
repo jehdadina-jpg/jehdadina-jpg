@@ -122,7 +122,11 @@
         <img width="100%" src="./assets/cards/moneyflow.svg" alt="MoneyFlow" />
       </a>
     </td>
-    <td width="50%" style="border:none;"></td>
+    <td width="50%" align="center" style="border:none;">
+      <a href="https://github.com/jehdadina-jpg/alpha">
+        <img width="100%" src="./assets/cards/alpha.svg" alt="Alpha" />
+      </a>
+    </td>
   </tr>
 </table>
 

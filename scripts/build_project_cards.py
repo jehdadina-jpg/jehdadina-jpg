@@ -40,6 +40,10 @@ PROJECTS = [
      "Live Bloomberg-terminal-style treemap heatmap for the Nifty 50 — FastAPI + yfinance backend "
      "streaming real-time market data onto a D3.js frontend.",
      False, "#A78BFA", "jehdadina-jpg/moneyflow"),
+    ("alpha", "Alpha", "Python", ["FastAPI", "Quant", "Python"],
+     "Terminal-style dashboard for NSE stocks — a cointegrated pairs scanner, realized volatility "
+     "term structure, and a factor exposure grid, built on FastAPI and yfinance.",
+     False, "#FF8C42", "jehdadina-jpg/alpha"),
 ]
 
 
