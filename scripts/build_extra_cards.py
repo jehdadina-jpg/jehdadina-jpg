@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Render the two remaining markdown tables as cards.
+"""Render the "A bit more" highlights as a card.
 
 Everything else on the profile is a generated card now, which left GitHub's
-default table styling — plain borders, flat header row — looking out of place
-inside the "A bit more" and "More app & XR builds" sections.
+default table styling — plain borders, flat header row — looking out of
+place inside this section.
 """
 
 import pathlib
@@ -29,14 +29,6 @@ POINTS = [
      "MoneyFlow (Nifty 50 Treemap Heatmap) & Alpha (Pairs Trading Dashboard).", "#FF6B6B"),
     ("Leadership & Ecosystem",
      "Founder of Finance & Technology Club at KJSSE. Lead organizer for FinovateX 2026.", "#A78BFA"),
-]
-
-# ── "More projects": name, what it is, language, chips ──
-XR_ROWS = [
-    ("FTC KJSSE", "Official website for the club I founded", "HTML", ["Web", "Club"]),
-    ("FinovateX 2026", "7-hour FinTech dual-event", "Python", ["Event", "Data"]),
-    ("Stock Research Agent", "Claude-powered research", "TypeScript", ["React", "Claude API"]),
-    ("Pointer Aid 2.0", "SGPI calculator for KJSSE", "JavaScript", ["HTML/CSS/JS"]),
 ]
 
 
@@ -100,57 +92,11 @@ def about_list() -> str:
     return shell(height, "about-list", head + "\n" + "\n".join(rows) + "\n" + foot)
 
 
-def xr_table() -> str:
-    top, row_h = 108, 38
-    cols = (26, 292, 604)
-    rows = []
-    for i, (name, what, lang, chips) in enumerate(XR_ROWS):
-        y = top + i * row_h
-        colour = gh.lang_colour(lang)
-        if i % 2 == 0:
-            rows.append(
-                f'  <rect x="16" y="{y - 24}" width="{W - 32}" height="{row_h}" rx="7" '
-                f'fill="#ffffff" fill-opacity="0.025"/>'
-            )
-        rows.append(
-            f'  <circle cx="{cols[0] + 6}" cy="{y - 5}" r="4.6" fill="{colour}"/>'
-            f'<text x="{cols[0] + 20}" y="{y}" '
-            f'style="font:600 13.5px {SANS};fill:#ffffff">{gh.esc(name)}</text>'
-            f'<text x="{cols[1]}" y="{y}" '
-            f'style="font:400 12.5px {SANS};fill:{gh.MUTED}">{gh.esc(what)}</text>'
-        )
-        x = cols[2]
-        for chip in chips:
-            cw = len(chip) * 6.6 + 20
-            rows.append(
-                f'  <rect x="{x:.0f}" y="{y - 15}" width="{cw:.0f}" height="21" rx="10.5" '
-                f'fill="{colour}" fill-opacity="0.12" stroke="{colour}" stroke-opacity="0.45"/>'
-                f'<text x="{x + cw / 2:.0f}" y="{y - 1}" text-anchor="middle" '
-                f'style="font:600 10px {MONO};fill:{colour}">{gh.esc(chip)}</text>'
-            )
-            x += cw + 7
-
-    height = top + len(XR_ROWS) * row_h + 16
-    head = (
-        f'  <text x="26" y="38" style="font:700 16px {SANS};fill:{gh.TEAL}">'
-        f'◈ More Projects</text>'
-        f'<text x="{cols[0]}" y="72" style="font:700 10px {MONO};fill:{gh.DIM};'
-        f'letter-spacing:1.5px">PROJECT</text>'
-        f'<text x="{cols[1]}" y="72" style="font:700 10px {MONO};fill:{gh.DIM};'
-        f'letter-spacing:1.5px">WHAT IT IS</text>'
-        f'<text x="{cols[2]}" y="72" style="font:700 10px {MONO};fill:{gh.DIM};'
-        f'letter-spacing:1.5px">STACK</text>'
-        f'<line x1="22" y1="80" x2="{W - 22}" y2="80" stroke="{gh.LINE}"/>'
-    )
-    return shell(height, "xr-index", head + "\n" + "\n".join(rows))
-
-
 def main() -> None:
     out = ROOT / "assets"
     out.mkdir(parents=True, exist_ok=True)
     (out / "about-list.svg").write_text(about_list(), encoding="utf-8")
-    (out / "xr-index.svg").write_text(xr_table(), encoding="utf-8")
-    print("wrote about-list.svg and xr-index.svg")
+    print("wrote about-list.svg")
 
 
 if __name__ == "__main__":

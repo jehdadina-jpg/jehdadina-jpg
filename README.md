@@ -80,7 +80,7 @@
   <img width="100%" src="./assets/sections/projects.svg" alt="Featured Projects Section Header" />
 </p>
 
-<!-- 2x3 Grid of 6 Distinct Colored Custom Project Cards -->
+<!-- 2x4 Grid of 8 Distinct Colored Custom Project Cards -->
 <table border="0" width="100%">
   <tr>
     <td width="50%" align="center" style="border:none;">
@@ -89,8 +89,8 @@
       </a>
     </td>
     <td width="50%" align="center" style="border:none;">
-      <a href="https://github.com/FTC-KJSSE/payrozgar">
-        <img width="100%" src="./assets/cards/payrozgar.svg" alt="PayRozgar" />
+      <a href="https://github.com/jehdadina-jpg/alpha">
+        <img width="100%" src="./assets/cards/alpha.svg" alt="Alpha" />
       </a>
     </td>
   </tr>
@@ -108,7 +108,9 @@
   </tr>
   <tr>
     <td width="50%" align="center" style="border:none;">
-      <img width="100%" src="./assets/cards/fintrace.svg" alt="FinTrace" />
+      <a href="https://moneyflow-nu.vercel.app/">
+        <img width="100%" src="./assets/cards/moneyflow.svg" alt="MoneyFlow" />
+      </a>
     </td>
     <td width="50%" align="center" style="border:none;">
       <a href="https://github.com/jehdadina-jpg/GitControl">
@@ -118,14 +120,12 @@
   </tr>
   <tr>
     <td width="50%" align="center" style="border:none;">
-      <a href="https://moneyflow-nu.vercel.app/">
-        <img width="100%" src="./assets/cards/moneyflow.svg" alt="MoneyFlow" />
+      <a href="https://github.com/FTC-KJSSE/payrozgar">
+        <img width="100%" src="./assets/cards/payrozgar.svg" alt="PayRozgar" />
       </a>
     </td>
     <td width="50%" align="center" style="border:none;">
-      <a href="https://github.com/jehdadina-jpg/alpha">
-        <img width="100%" src="./assets/cards/alpha.svg" alt="Alpha" />
-      </a>
+      <img width="100%" src="./assets/cards/fintrace.svg" alt="FinTrace" />
     </td>
   </tr>
 </table>
@@ -134,12 +134,6 @@
 
 <div align="center">
   <img width="100%" src="./assets/project-index.svg" alt="Full Project Index Table" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="100%" src="./assets/xr-index.svg" alt="Additional Builds & Applications" />
 </div>
 
 ---
