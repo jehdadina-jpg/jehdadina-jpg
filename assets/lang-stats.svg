@@ -38,15 +38,15 @@
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
-    <rect x="292.9" y="74" width="98.8" height="16" fill="#E34C26">
+    <rect x="292.8" y="74" width="98.3" height="16" fill="#E34C26">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.14s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.14s" fill="freeze"/>
     </rect>
-    <rect x="391.7" y="74" width="53.9" height="16" fill="#3178C6">
+    <rect x="391.1" y="74" width="54.4" height="16" fill="#3178C6">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.21s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.21s" fill="freeze"/>
     </rect>
-    <rect x="445.6" y="74" width="52.1" height="16" fill="#563D7C">
+    <rect x="445.5" y="74" width="52.2" height="16" fill="#563D7C">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.28s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.28s" fill="freeze"/>
     </rect>
@@ -79,19 +79,19 @@
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.37s" fill="freeze"/>
       <circle cx="27" cy="146" r="5.5" fill="#E34C26"/>
       <text x="40" y="150" class="lg">HTML</text>
-      <text x="240" y="150" class="pc" text-anchor="end">20.8%</text>
+      <text x="240" y="150" class="pc" text-anchor="end">20.6%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.43s" fill="freeze"/>
       <circle cx="277" cy="146" r="5.5" fill="#3178C6"/>
       <text x="290" y="150" class="lg">TypeScript</text>
-      <text x="490" y="150" class="pc" text-anchor="end">11.3%</text>
+      <text x="490" y="150" class="pc" text-anchor="end">11.4%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.49s" fill="freeze"/>
       <circle cx="27" cy="172" r="5.5" fill="#563D7C"/>
       <text x="40" y="176" class="lg">CSS</text>
-      <text x="240" y="176" class="pc" text-anchor="end">10.9%</text>
+      <text x="240" y="176" class="pc" text-anchor="end">11.0%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.55s" fill="freeze"/>
