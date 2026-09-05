@@ -30,15 +30,15 @@
   <text x="22" y="34" class="ttl">◈ Language Mix</text>
   <text x="22" y="56" class="pc">14 public repos · each weighted equally</text>
 
-    <rect x="22.0" y="74" width="142.7" height="16" rx="4" fill="#3572A5">
+    <rect x="22.0" y="74" width="143.0" height="16" rx="4" fill="#3572A5">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.00s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.00s" fill="freeze"/>
     </rect>
-    <rect x="164.7" y="74" width="137.7" height="16" fill="#F1E05A">
+    <rect x="165.0" y="74" width="137.7" height="16" fill="#F1E05A">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
-    <rect x="302.4" y="74" width="96.3" height="16" fill="#E34C26">
+    <rect x="302.7" y="74" width="96.1" height="16" fill="#E34C26">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.14s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.14s" fill="freeze"/>
     </rect>
