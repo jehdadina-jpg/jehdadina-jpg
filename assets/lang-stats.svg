@@ -38,11 +38,11 @@
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
-    <rect x="289.7" y="74" width="84.1" height="16" fill="#E34C26">
+    <rect x="289.6" y="74" width="85.4" height="16" fill="#E34C26">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.14s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.14s" fill="freeze"/>
     </rect>
-    <rect x="373.8" y="74" width="73.6" height="16" fill="#3178C6">
+    <rect x="375.0" y="74" width="72.4" height="16" fill="#3178C6">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.21s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.21s" fill="freeze"/>
     </rect>
@@ -83,19 +83,19 @@
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.37s" fill="freeze"/>
       <circle cx="27" cy="146" r="5.5" fill="#E34C26"/>
       <text x="40" y="150" class="lg">HTML</text>
-      <text x="240" y="150" class="pc" text-anchor="end">17.7%</text>
+      <text x="240" y="150" class="pc" text-anchor="end">17.9%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.43s" fill="freeze"/>
       <circle cx="277" cy="146" r="5.5" fill="#3178C6"/>
       <text x="290" y="150" class="lg">TypeScript</text>
-      <text x="490" y="150" class="pc" text-anchor="end">15.5%</text>
+      <text x="490" y="150" class="pc" text-anchor="end">15.2%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.49s" fill="freeze"/>
       <circle cx="27" cy="172" r="5.5" fill="#563D7C"/>
       <text x="40" y="176" class="lg">CSS</text>
-      <text x="240" y="176" class="pc" text-anchor="end">8.9%</text>
+      <text x="240" y="176" class="pc" text-anchor="end">9.0%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.55s" fill="freeze"/>
