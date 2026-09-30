@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="520" height="300"
      role="img" aria-label="Language mix across 21 public repositories">
-  <title>Language mix — 21 public repos, 9 languages</title>
+  <title>Language mix — 21 public repos, 10 languages</title>
   <defs>
     <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
@@ -30,39 +30,39 @@
   <text x="22" y="34" class="ttl">◈ Language Mix</text>
   <text x="22" y="56" class="pc">21 public repos · each weighted equally</text>
 
-    <rect x="22.0" y="74" width="147.5" height="16" rx="4" fill="#3572A5">
+    <rect x="22.0" y="74" width="156.3" height="16" rx="4" fill="#3572A5">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.00s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.00s" fill="freeze"/>
     </rect>
-    <rect x="169.5" y="74" width="107.2" height="16" fill="#F1E05A">
+    <rect x="178.3" y="74" width="101.5" height="16" fill="#F1E05A">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
-    <rect x="276.7" y="74" width="102.4" height="16" fill="#E34C26">
+    <rect x="279.8" y="74" width="97.0" height="16" fill="#E34C26">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.14s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.14s" fill="freeze"/>
     </rect>
-    <rect x="379.1" y="74" width="71.6" height="16" fill="#3178C6">
+    <rect x="376.9" y="74" width="75.8" height="16" fill="#3178C6">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.21s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.21s" fill="freeze"/>
     </rect>
-    <rect x="450.7" y="74" width="40.2" height="16" fill="#563D7C">
+    <rect x="452.7" y="74" width="38.4" height="16" fill="#563D7C">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.28s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.28s" fill="freeze"/>
     </rect>
-    <rect x="490.9" y="74" width="6.9" height="16" fill="#8B949E">
+    <rect x="491.1" y="74" width="6.6" height="16" fill="#8B949E">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.35s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.35s" fill="freeze"/>
     </rect>
-    <rect x="497.8" y="74" width="1.5" height="16" fill="#C1F12E">
+    <rect x="497.6" y="74" width="1.5" height="16" fill="#89E051">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.42s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.42s" fill="freeze"/>
     </rect>
-    <rect x="499.3" y="74" width="1.5" height="16" fill="#6E7681">
+    <rect x="499.1" y="74" width="1.5" height="16" fill="#7E858D">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.49s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.49s" fill="freeze"/>
     </rect>
-    <rect x="500.8" y="74" width="1.5" height="16" rx="4" fill="#8B949E">
+    <rect x="500.6" y="74" width="1.5" height="16" rx="4" fill="#8B949E">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.56s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.56s" fill="freeze"/>
     </rect>
@@ -71,48 +71,48 @@
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.25s" fill="freeze"/>
       <circle cx="27" cy="120" r="5.5" fill="#3572A5"/>
       <text x="40" y="124" class="lg">Python</text>
-      <text x="240" y="124" class="pc" text-anchor="end">31.0%</text>
+      <text x="240" y="124" class="pc" text-anchor="end">32.8%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.31s" fill="freeze"/>
       <circle cx="277" cy="120" r="5.5" fill="#F1E05A"/>
       <text x="290" y="124" class="lg">JavaScript</text>
-      <text x="490" y="124" class="pc" text-anchor="end">22.5%</text>
+      <text x="490" y="124" class="pc" text-anchor="end">21.3%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.37s" fill="freeze"/>
       <circle cx="27" cy="146" r="5.5" fill="#E34C26"/>
       <text x="40" y="150" class="lg">HTML</text>
-      <text x="240" y="150" class="pc" text-anchor="end">21.5%</text>
+      <text x="240" y="150" class="pc" text-anchor="end">20.4%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.43s" fill="freeze"/>
       <circle cx="277" cy="146" r="5.5" fill="#3178C6"/>
       <text x="290" y="150" class="lg">TypeScript</text>
-      <text x="490" y="150" class="pc" text-anchor="end">15.0%</text>
+      <text x="490" y="150" class="pc" text-anchor="end">15.9%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.49s" fill="freeze"/>
       <circle cx="27" cy="172" r="5.5" fill="#563D7C"/>
       <text x="40" y="176" class="lg">CSS</text>
-      <text x="240" y="176" class="pc" text-anchor="end">8.4%</text>
+      <text x="240" y="176" class="pc" text-anchor="end">8.1%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.55s" fill="freeze"/>
       <circle cx="277" cy="172" r="5.5" fill="#8B949E"/>
       <text x="290" y="176" class="lg">Cypher</text>
-      <text x="490" y="176" class="pc" text-anchor="end">1.5%</text>
+      <text x="490" y="176" class="pc" text-anchor="end">1.4%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.61s" fill="freeze"/>
-      <circle cx="27" cy="198" r="5.5" fill="#C1F12E"/>
-      <text x="40" y="202" class="lg">Batchfile</text>
+      <circle cx="27" cy="198" r="5.5" fill="#89E051"/>
+      <text x="40" y="202" class="lg">Shell</text>
       <text x="240" y="202" class="pc" text-anchor="end">0.0%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.67s" fill="freeze"/>
-      <circle cx="277" cy="198" r="5.5" fill="#6E7681"/>
-      <text x="290" y="202" class="lg">Procfile</text>
+      <circle cx="277" cy="198" r="5.5" fill="#7E858D"/>
+      <text x="290" y="202" class="lg">Mako</text>
       <text x="490" y="202" class="pc" text-anchor="end">0.0%</text>
     </g>
     <g opacity="0">
@@ -126,7 +126,7 @@
   <g>
     <text x="60"  y="266" class="kv" text-anchor="middle">21</text>
     <text x="60"  y="282" class="kl" text-anchor="middle">REPOS</text>
-    <text x="200" y="266" class="kv" text-anchor="middle">9</text>
+    <text x="200" y="266" class="kv" text-anchor="middle">10</text>
     <text x="200" y="282" class="kl" text-anchor="middle">LANGUAGES</text>
     <text x="340" y="266" class="kv" text-anchor="middle">12</text>
     <text x="340" y="282" class="kl" text-anchor="middle">STARS</text>
