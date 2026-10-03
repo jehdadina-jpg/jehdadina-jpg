@@ -18,27 +18,28 @@ GROUP_COLOUR = {
     "anomaly-terminal": "#00F0FF", "mf-scope": "#00F0FF",       # FinTech & Market Intelligence
     "swiperight": "#39FF14", "fintrace": "#39FF14",             # AI-Powered FinTech Tools
     "payrozgar": "#FFB800", "gitcontrol": "#FFB800",            # Full Stack & Dev Tools
-    "moneyflow": "#FF6B6B", "alpha": "#FF6B6B",                 # Quant & Market Data Viz
+    "viewpoint": "#FF6B6B", "alpha": "#FF6B6B",                 # Quant & Portfolio Analytics
 }
 
+# Order mirrors jehdadina.xyz.
 # slug, display name, domain, language, stack summary, status ("done"|"wip"), repo (owner/name, for stars)
 ROWS = [
     ("anomaly-terminal", "Anomaly Terminal", "AI/ML", "Python", "ML · Python · Finance",
      "done", "jehdadina-jpg/anomaly"),
+    ("viewpoint", "Viewpoint", "Quant · NLP", "Python", "FastAPI · FinBERT · React",
+     "done", "jehdadina-jpg/viewpoint"),
     ("alpha", "Alpha", "FinTech · Quant", "Python", "FastAPI · statsmodels · yfinance",
      "done", "jehdadina-jpg/alpha"),
     ("mf-scope", "MFScope", "FinTech", "Python", "FastAPI · React · Python",
      "done", "jehdadina-jpg/MFScope"),
     ("swiperight", "SwipeRight", "FinTech · AI", "Python", "Next.js · ML · Python",
      "done", "jehdadina-jpg/swiperight"),
-    ("moneyflow", "MoneyFlow", "FinTech · Data Viz", "Python", "FastAPI · D3.js · yfinance",
-     "done", "jehdadina-jpg/moneyflow"),
     ("gitcontrol", "GitControl", "Dev Tools", "TypeScript", "Electron · TypeScript · Git",
      "done", "jehdadina-jpg/GitControl"),
-    ("payrozgar", "PayRozgar", "FinTech", "HTML", "PWA · Vanilla JS · Service Worker",
-     "wip", "FTC-KJSSE/payrozgar"),
     ("fintrace", "FinTrace", "FinTech · Infra", "JavaScript", "Node.js · Real-Time · SSE",
      "wip", "FTC-KJSSE/fintrace"),
+    ("payrozgar", "PayRozgar", "FinTech", "HTML", "PWA · Vanilla JS · Service Worker",
+     "wip", "FTC-KJSSE/payrozgar"),
 ]
 
 W = 860

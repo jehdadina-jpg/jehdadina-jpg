@@ -18,15 +18,15 @@ SANS = "'Segoe UI',Inter,Helvetica,Arial,sans-serif"
 # ── "A bit more": lead phrase, supporting detail, accent ──
 POINTS = [
     ("Computer Engineering @ KJSSE (SGPA: 9.04)",
-     "Building AI/ML and FinTech applications with high academic rigor and production standards.", "#00FF66"),
+     "I build software where finance, data & AI meet.", "#00FF66"),
     ("FinTech & Market Intelligence",
      "MFScope (Mutual Fund Intelligence) & Anomaly Terminal (ML Stock Anomaly Detection).", "#00F0FF"),
     ("AI-Powered FinTech Tools",
      "SwipeRight (AI Credit-Card Recommendation Engine) & FinTrace (Latency Globe).", "#39FF14"),
     ("Full Stack & Dev Tools",
      "PayRozgar (Payroll PWA) & GitControl (Windows Git Desktop App).", "#FFB800"),
-    ("Quant & Market Data Visualization",
-     "MoneyFlow (Nifty 50 Treemap Heatmap) & Alpha (Pairs Trading Dashboard).", "#FF6B6B"),
+    ("Quant & Portfolio Analytics",
+     "Viewpoint (Sentiment-Driven Portfolio Optimizer) & Alpha (Pairs Trading Dashboard).", "#FF6B6B"),
     ("Leadership & Ecosystem",
      "Founder of Finance & Technology Club at KJSSE. Lead organizer for FinovateX 2026.", "#A78BFA"),
 ]

@@ -80,7 +80,7 @@
   <img width="100%" src="./assets/sections/projects.svg" alt="Featured Projects Section Header" />
 </p>
 
-<!-- 2x4 Grid of 8 Distinct Colored Custom Project Cards -->
+<!-- 2x4 Grid of 8 Distinct Colored Custom Project Cards (order mirrors jehdadina.xyz) -->
 <table border="0" width="100%">
   <tr>
     <td width="50%" align="center" style="border:none;">
@@ -89,27 +89,27 @@
       </a>
     </td>
     <td width="50%" align="center" style="border:none;">
-      <a href="https://github.com/jehdadina-jpg/alpha">
-        <img width="100%" src="./assets/cards/alpha.svg" alt="Alpha" />
+      <a href="https://viewpoint-ashy.vercel.app">
+        <img width="100%" src="./assets/cards/viewpoint.svg" alt="Viewpoint" />
       </a>
     </td>
   </tr>
   <tr>
+    <td width="50%" align="center" style="border:none;">
+      <a href="https://github.com/jehdadina-jpg/alpha">
+        <img width="100%" src="./assets/cards/alpha.svg" alt="Alpha" />
+      </a>
+    </td>
     <td width="50%" align="center" style="border:none;">
       <a href="https://github.com/jehdadina-jpg/MFScope">
         <img width="100%" src="./assets/cards/mf-scope.svg" alt="MFScope" />
       </a>
     </td>
-    <td width="50%" align="center" style="border:none;">
-      <a href="https://github.com/jehdadina-jpg/swiperight">
-        <img width="100%" src="./assets/cards/swiperight.svg" alt="SwipeRight" />
-      </a>
-    </td>
   </tr>
   <tr>
     <td width="50%" align="center" style="border:none;">
-      <a href="https://moneyflow-nu.vercel.app/">
-        <img width="100%" src="./assets/cards/moneyflow.svg" alt="MoneyFlow" />
+      <a href="https://github.com/jehdadina-jpg/swiperight">
+        <img width="100%" src="./assets/cards/swiperight.svg" alt="SwipeRight" />
       </a>
     </td>
     <td width="50%" align="center" style="border:none;">
@@ -120,12 +120,12 @@
   </tr>
   <tr>
     <td width="50%" align="center" style="border:none;">
+      <img width="100%" src="./assets/cards/fintrace.svg" alt="FinTrace" />
+    </td>
+    <td width="50%" align="center" style="border:none;">
       <a href="https://github.com/FTC-KJSSE/payrozgar">
         <img width="100%" src="./assets/cards/payrozgar.svg" alt="PayRozgar" />
       </a>
-    </td>
-    <td width="50%" align="center" style="border:none;">
-      <img width="100%" src="./assets/cards/fintrace.svg" alt="FinTrace" />
     </td>
   </tr>
 </table>
@@ -199,7 +199,7 @@
 <br/><br/>
 
 **Interested in AI/ML, FinTech innovation, or building high-impact systems?**  
-*Open to internships, engineering research collaborations, and production software projects.*
+*Open to internships, collaborations, and fintech + AI projects.*
 
 </div>
 

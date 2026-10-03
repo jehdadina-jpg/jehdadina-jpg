@@ -36,10 +36,11 @@ PROJECTS = [
      "A premium Windows desktop app for visually driving Git and GitHub from one place — no manual "
      "shell commands required for everyday workflows.",
      False, "#58A6FF", "jehdadina-jpg/GitControl"),
-    ("moneyflow", "MoneyFlow", "Python", ["FastAPI", "D3.js", "Real-Time"],
-     "Live Bloomberg-terminal-style treemap heatmap for the Nifty 50 — FastAPI + yfinance backend "
-     "streaming real-time market data onto a D3.js frontend.",
-     False, "#A78BFA", "jehdadina-jpg/moneyflow"),
+    ("viewpoint", "Viewpoint", "Python", ["FastAPI", "NLP", "Quant"],
+     "Sentiment-driven Black-Litterman portfolio optimizer — a multi-model NLP ensemble (VADER, FinBERT, "
+     "Loughran-McDonald) turns news into BL views, with a walk-forward backtest in a Bloomberg-terminal "
+     "dashboard.",
+     False, "#A78BFA", "jehdadina-jpg/viewpoint"),
     ("alpha", "Alpha", "Python", ["FastAPI", "Quant", "Python"],
      "Terminal-style dashboard for NSE stocks — a cointegrated pairs scanner, realized volatility "
      "term structure, and a factor exposure grid, built on FastAPI and yfinance.",

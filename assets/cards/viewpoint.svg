@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 226" width="424" height="226"
+     role="img" aria-label="Viewpoint — Python project">
+  <title>Viewpoint</title>
+  <defs>
+    <linearGradient id="bg-viewpoint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a07"/><stop offset="100%" stop-color="#0a150e"/>
+    </linearGradient>
+    <linearGradient id="top-viewpoint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-viewpoint { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-viewpoint { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#A78BFA; letter-spacing:0.6px; }
+      .d-viewpoint { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#629E75; }
+      .c-viewpoint { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#A78BFA; }
+      .s-viewpoint { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#FFB800; }
+      .l-viewpoint { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#00FF66; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="226" rx="14" fill="url(#bg-viewpoint)"/>
+  <rect x="1" y="1" width="422" height="224" rx="13" fill="none"
+        stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.8"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="1" y="1" width="422" height="3" rx="1.5" fill="url(#top-viewpoint)"/>
+
+  <!-- Title & Language Dot -->
+  <circle cx="34" cy="38" r="6" fill="#A78BFA"/>
+  <text x="50" y="43" class="t-viewpoint">Viewpoint</text>
+  <text x="50" y="62" class="g-viewpoint">PYTHON</text>
+
+
+    <text x="26" y="112" class="d-viewpoint">Sentiment-driven Black-Litterman portfolio optimizer — a</text>
+    <text x="26" y="130" class="d-viewpoint">multi-model NLP ensemble (VADER, FinBERT,</text>
+    <text x="26" y="148" class="d-viewpoint">Loughran-McDonald) turns news into BL views, with a</text>
+    <text x="26" y="166" class="d-viewpoint">walk-forward backtest in a Bloomberg-terminal dashboard.</text>
+    <rect x="26" y="184" width="66" height="22" rx="11" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <text x="59" y="199" class="c-viewpoint" text-anchor="middle">FastAPI</text>    <rect x="100.19999999999999" y="184" width="40" height="22" rx="11" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <text x="120" y="199" class="c-viewpoint" text-anchor="middle">NLP</text>    <rect x="148.0" y="184" width="53" height="22" rx="11" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <text x="174" y="199" class="c-viewpoint" text-anchor="middle">Quant</text>
+
+</svg>
